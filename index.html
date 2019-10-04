@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/dc.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+
+    <script type="text/javascript" src="assets/js/d3.min.js"></script>
+    <script type="text/javascript" src="assets/js/crossfilter.min.js"></script>
+    <script type="text/javascript" src="assets/js/dc.min.js"></script>
+    <script type="text/javascript" src="assets/js/queue.min.js"></script>
+    <script type="text/javascript" src="assets/js/graps.js"></script>
+
+</head>
+
+<body>
+
+    <section class="section">
+        <div id="refresh-button">
+            <button type="submit" class="btn btn-success" onClick="refreshPage()">Refresh Charts</button>
+        </div>
+    </section>
+
+
+
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 text-center">
+                        <p class="section-paragraph">Men outnumber women 10 to 1</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 text-center">
+                        <p class="section-paragraph">Men earn on average about 15% more</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 text-center">
+                        <p class="section-paragraph">Distribution of ranks is weighted towards the upper level for men.</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center custom-chart" id="region-selector"></div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center custom-chart" id="constituency-selector"></div>
+                        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center custom-chart" id="elected-selector"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row col-12"></div>
+        <div class="col-xs-12 col-sm-12 col-lg-12 gender-box">
+            <i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="percent-of-women-professors"></span>
+            <i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="percent-of-men-professors"></span>
+        </div>
+    </section>
+
+    <section>
+        <div class="container graph-box">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center" id="party_first_preference_graphs"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center" id="party_total_votes_graphs"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center" id="candidate-first-preferance-graph"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 text-center" id="candidate-total-votes-graph"></div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 text-center" id="candidate-first-preferance-graph"></div>
+                <div class="col-xs-12 col-sm-4 text-center" id="candidate-total-votes-graph"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
