@@ -12,6 +12,13 @@
 	margin-right: auto;
 }
 
+
+
+
+
+
+
+
 /*.row {*/
 /*	margin: 0px;*/
 /*	padding: 0px;*/
@@ -75,3 +82,372 @@
 .section-paragraph {
 	line-height: 1.2;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+
+/* BODY & HTML */
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* HEADINGS */
+/* Styling of the dashboard title */
+
+h1 {
+    margin: 0;
+}
+
+/* Styling of heading 2 */
+
+h2 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+/* SPINNER */
+/* Spinner on data loading
+spinner animation found on CodePen: https://codepen.io/judecodes/pen/PrBOvG?&page=1 */
+
+.loader {
+    z-index: 99;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-top: 2px solid #2477b4;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    animation: spin 3s linear infinite forwards;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.loader::before,
+.loader::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border-top: 2px solid #2477b4;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+
+.loader::before {
+    top: 7px;
+    left: 7px;
+    width: 178px;
+    height: 178px;
+    border-top: 2px solid #e6562e;
+    animation: spin 2s linear infinite forwards;
+}
+
+.loader::after {
+    top: 16px;
+    left: 16px;
+    width: 160px;
+    height: 160px;
+    border-top: 2px solid #f2893c;
+    animation: spin 1s linear infinite forwards;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Overlay styled to dim the background for spinner */
+
+#overlay {
+    z-index: 98;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+/* BACK TO TOP BUTTON */
+/* Back to top button inspired by this Codepen solution: https://codepen.io/matthewcain/pen/ZepbeR */
+
+#button {
+    display: inline-block;
+    background-color: transparent;
+    color: #DF691A;
+    border: 1px solid #DF691A;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 3px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s,
+    opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 97;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+}
+
+#button:active {
+    color: #ffffff;
+    background-color: #DF691A;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* REGIONAL SELECTOR */
+/* Region selector menu styling */
+
+#region-selector select {
+    background: #5d6b78;
+    border: #445360;
+    color: #ebebeb;
+    font-size: 1rem;
+}
+
+/* Select menu styling to match bootstrap theme */
+
+select {
+    background: #4e5d6c;
+    color: #ebebeb;
+}
+
+/* CARDS */
+/* Increasing size of font awesome icons */
+
+.fa {
+    font-size: 3rem;
+}
+
+
+/* Styles for tiles/cards */
+
+.tile-s1,
+.tile-s2,
+.tile-s3 {
+    max-width: 45rem;
+}
+
+.tile-s3 {
+    min-height: 20rem;
+}
+
+.tile-s3 span {
+    font-size: 1.5rem;
+}
+
+.tile-s4 {
+    max-width: 70rem;
+}
+
+/* Card titles and filter label styled to uppercase */
+
+.card-header,
+.selector-label {
+    text-transform: uppercase;
+}
+
+/* Number box font size increased to make it more prominent */
+
+.number-box span {
+    font-size: 1.5rem;
+}
+
+/* Shadow added to the chart tiles */
+
+.shadow-box {
+    box-shadow: 4px 4px 7px 0px rgba(61, 78, 94, 1);
+}
+
+/* Charts styling to fix the issue of responsiveness */
+
+#composite-hour,
+#composite-month {
+    height: 300px;
+    width: 750px;
+}
+
+/* Increasing the size of a viewbox so charts are bigger */
+
+#accidents-severity,
+#rd-type-split {
+    height: 400px;
+    width: 460px;
+}
+
+#severity-distribution {
+    height: 400px;
+    width: 380px;
+}
+
+/* DATA COUNT & RESET
+/* Changing default margins to create some space between count feature and other sections */
+
+.dc-data-count {
+    margin: 10px 0;
+}
+
+/* Reset button  - border-radius added to match back0to0top button and shadow box removed*/
+
+#reset-button {
+    border-radius: 3px;
+}
+
+#reset-button:focus {
+    box-shadow: none;
+}
+
+/* FOOTER */
+/* adding margin so footer ellements have some space inbetween on smaller devices */
+
+.footer-item {
+    margin-bottom: 10px;
+}
+
+/* Underlining removed from all links */
+
+a:hover {
+    text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 1200px) {
+    
+    .tile-s2 {
+        min-height: 30rem;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    #stacked-chart {
+        max-width: 70rem;
+    }
+    
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .card-header {
+        font-size: 0.7rem;
+    }
+
+    .number-box span {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* media query created to make number display element look better, to add more space between the chart and the number */
+
+@media only screen and (max-width: 767px) {
+
+    .number-box span {
+        font-size: 1.5rem;
+    }
+
+    .card-header,
+    .selector-label {
+        font-size: 0.8rem;
+    }
+
+    #accidents-severity,
+    #rd-type-split {
+        height: 360px;
+        width: 440px;
+    }
+
+    #severity-distribution {
+        height: 370px;
+        width: 360px;
+    }
+
+}
+
+/* Adjustments to font sizes to avoid line break */
+
+@media only screen and (max-width: 576px) {
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    .card-header,
+    .selector-label {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+
+    /* height adjusted to reduce space at top and the bottom of the chart (within the card) */
+    #composite-hour,
+    #composite-month {
+        height: 120px;
+    }
+
+    #accidents-severity,
+    #rd-type-split {
+        height: 260px;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    
+    #severity-distribution {
+        height: 250px;
+    }
+    
+}
+
+/* Solution to sticky hover on mobile devices found here: https://medium.com/@ferie/detect-a-touch-device-with-only-css-9f8e30fa1134 */
+
+@media (hover: hover) {
+    
+    #button:hover {
+        cursor: pointer;
+        background-color: #DF691A;
+        color: #ffffff;
+    }
+    
+}
+
