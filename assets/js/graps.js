@@ -13,15 +13,33 @@ function makeGraphs(error, salesData) {
     region_selector(ndx);
     constituency_selector(ndx);
     elected_selector(ndx);
-    show_count_elected_by_gender(ndx, "F", "#count-of-women-elected");
-    show_count_elected_by_gender(ndx, "M", "#count-of-men-elected");
-    show_count_candidate_gender(ndx, "F", "#count-of-women-elected_1");
-    show_count_candidate_gender(ndx, "M", "#count-of-men-elected_1");
     party_first_preference_graphs(ndx);
     candidate_graphs(ndx);
-    show_data_table(ndx) 
-    
-
+    show_data_table(ndx)
+    show_count_candidate_fg(ndx, "F", "#count-of-women-candidate-fg");
+    show_count_candidate_fg(ndx, "M", "#count-of-men-candidate-fg");
+    show_count_elected_fg(ndx, "F", "#count-of-women-elected-fg");
+    show_count_elected_fg(ndx, "M", "#count-of-men-elected-fg");
+    show_count_candidate_ff(ndx, "F", "#count-of-women-candidate-ff");
+    show_count_candidate_ff(ndx, "M", "#count-of-men-candidate-ff");
+    show_count_elected_ff(ndx, "F", "#count-of-women-elected-ff");
+    show_count_elected_ff(ndx, "M", "#count-of-men-elected-ff");
+    show_count_candidate_gp(ndx, "F", "#count-of-women-candidate-gp");
+    show_count_candidate_gp(ndx, "M", "#count-of-men-candidate-gp");
+    show_count_elected_gp(ndx, "F", "#count-of-women-elected-gp");
+    show_count_elected_gp(ndx, "M", "#count-of-men-elected-gp");
+    show_count_candidate_lab(ndx, "F", "#count-of-women-candidate-lab");
+    show_count_candidate_lab(ndx, "M", "#count-of-men-candidate-lab");
+    show_count_elected_lab(ndx, "F", "#count-of-women-elected-lab");
+    show_count_elected_lab(ndx, "M", "#count-of-men-elected-lab");
+    show_count_candidate_sf(ndx, "F", "#count-of-women-candidate-sf");
+    show_count_candidate_sf(ndx, "M", "#count-of-men-candidate-sf");
+    show_count_elected_sf(ndx, "F", "#count-of-women-elected-sf");
+    show_count_elected_sf(ndx, "M", "#count-of-men-elected-sf");
+    show_count_candidate_others(ndx, "F", "#count-of-women-candidate-others");
+    show_count_candidate_others(ndx, "M", "#count-of-men-candidate-others");
+    show_count_elected_others(ndx, "F", "#count-of-women-elected-others");
+    show_count_elected_others(ndx, "M", "#count-of-men-elected-others");
 
 
 
@@ -36,7 +54,10 @@ function makeGraphs(error, salesData) {
     candidate_total_votes_graphs(ndx);
     candidate_graphs_v2(ndx);
     // candidate_people(ndx);
-
+    // show_count_elected_by_gender(ndx, "F", "#count-of-women-elected");
+    // show_count_elected_by_gender(ndx, "M",  "#count-of-men-elected");
+    // show_count_candidate_gender(ndx, "F", "#count-of-women-elected_1");
+    // show_count_candidate_gender(ndx, "M", "#count-of-men-elected_1");
 
     dc.renderAll();
 }
@@ -77,20 +98,6 @@ function elected_selector(ndx) {
         .group(group);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function party_first_preference_graphs(ndx) {
 
     var dim = ndx.dimension(dc.pluck('Party_Abbreviation'));
@@ -123,7 +130,6 @@ function party_first_preference_graphs(ndx) {
         .group(group);
 }
 
-
 function candidate_graphs(ndx) {
     var dim = ndx.dimension(dc.pluck('Party_Abbreviation'));
     var group = dim.group().reduceSum(dc.pluck('Seat'));
@@ -136,90 +142,9 @@ function candidate_graphs(ndx) {
         .dimension(dim)
         .transitionDuration(1500)
         .elasticX(true)
-              .ordering(function(d) { return +d.value })
+        .ordering(function(d) { return +d.value })
         .group(group);
 }
-
-
-
-function show_count_elected_by_gender(ndx, gender, element) {
-    var countThatAreElected = ndx.groupAll().reduce(
-        function(p, v) {
-            if (v.Gender === gender) {
-                p.count++;
-                if (v.Result === "Elected") {
-                    p.are_elected++;
-                }
-            }
-            return p;
-        },
-        function(p, v) {
-            if (v.Gender === gender) {
-                p.count--;
-                if (v.Result === "Elected") {
-                    p.are_elected--;
-                }
-            }
-            return p;
-        },
-        function() {
-            return { count: 0, are_elected: 0 };
-        },
-    );
-
-
-    dc.numberDisplay(element)
-        // .formatNumber(d3.format("2.s"))
-        .valueAccessor(function(d) {
-            if (d.count == 0) {
-                return 0;
-            }
-            else {
-                return (d.are_elected);
-            }
-        })
-        .transitionDuration(1500)
-        .group(countThatAreElected)
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//this is the testing section 
 
 function show_data_table(ndx) {
 
@@ -246,7 +171,7 @@ function show_data_table(ndx) {
         })
         .order(d3.descending) /* reinsert ; after final peice of this section */
 
-        /* pagination */ 
+        /* pagination */
 
         .on('preRender', update_offset)
         .on('preRedraw', update_offset)
@@ -291,7 +216,7 @@ function show_data_table(ndx) {
         update_offset();
         table.redraw();
     });
-    /* Event Listener function that fires when "next" HTML btn is clicked */  
+
 
 
     $('#last').on('click', function() {
@@ -299,10 +224,611 @@ function show_data_table(ndx) {
         update_offset();
         table.redraw();
     });
-    /* Event Listener function that fires when "last" HTML btn is clicked */
+
 }
 
 
+function show_count_candidate_fg(ndx, gender, element) {
+    var countThatArecandidate = ndx.groupAll().reduce(
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count++;
+                if (v.Party_Abbreviation === "F.G.") {
+                    p.are_party++;
+                }
+            }
+            return p;
+        },
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count--;
+                if (v.Party_Abbreviation === "F.G.") {
+                    p.are_party--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_party: 0 };
+        },
+    );
+
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_party);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatArecandidate)
+}
+
+function show_count_elected_fg(ndx, gender, element) {
+    var countThatAreElected = ndx.groupAll().reduce(
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count++;
+                if ((v.Party_Abbreviation === "F.G.") && (v.Result === "Elected")) {
+                    p.are_elected++;
+                }
+            }
+            return p;
+        },
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count--;
+                if ((v.Party_Abbreviation === "F.G.") && (v.Result === "Elected")) {
+                    p.are_elected--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_elected: 0 };
+
+        },
+    );
+
+    console.log(countThatAreElected);
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_elected);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatAreElected)
+}
+
+function show_count_candidate_ff(ndx, gender, element) {
+    var countThatArecandidate = ndx.groupAll().reduce(
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count++;
+                if (v.Party_Abbreviation === "F.F.") {
+                    p.are_party++;
+                }
+            }
+            return p;
+        },
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count--;
+                if (v.Party_Abbreviation === "F.F.") {
+                    p.are_party--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_party: 0 };
+        },
+    );
+
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_party);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatArecandidate)
+}
+
+function show_count_elected_ff(ndx, gender, element) {
+    var countThatAreElected = ndx.groupAll().reduce(
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count++;
+                if ((v.Party_Abbreviation === "F.F.") && (v.Result === "Elected")) {
+                    p.are_elected++;
+                }
+            }
+            return p;
+        },
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count--;
+                if ((v.Party_Abbreviation === "F.F.") && (v.Result === "Elected")) {
+                    p.are_elected--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_elected: 0 };
+
+        },
+    );
+
+    console.log(countThatAreElected);
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_elected);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatAreElected)
+}
+
+function show_count_candidate_gp(ndx, gender, element) {
+    var countThatArecandidate = ndx.groupAll().reduce(
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count++;
+                if (v.Party_Abbreviation === "G.P.") {
+                    p.are_party++;
+                }
+            }
+            return p;
+        },
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count--;
+                if (v.Party_Abbreviation === "G.P.") {
+                    p.are_party--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_party: 0 };
+        },
+    );
+
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_party);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatArecandidate)
+}
+
+function show_count_elected_gp(ndx, gender, element) {
+    var countThatAreElected = ndx.groupAll().reduce(
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count++;
+                if ((v.Party_Abbreviation === "G.P.") && (v.Result === "Elected")) {
+                    p.are_elected++;
+                }
+            }
+            return p;
+        },
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count--;
+                if ((v.Party_Abbreviation === "G.P.") && (v.Result === "Elected")) {
+                    p.are_elected--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_elected: 0 };
+
+        },
+    );
+
+    console.log(countThatAreElected);
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_elected);
+            }
+        })
+        // .transitionDuration(1500)
+          .formatNumber(d3.format("1.s"))
+        .group(countThatAreElected)
+}
+
+function show_count_candidate_lab(ndx, gender, element) {
+    var countThatArecandidate = ndx.groupAll().reduce(
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count++;
+                if (v.Party_Abbreviation === "LAB.") {
+                    p.are_party++;
+                }
+            }
+            return p;
+        },
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count--;
+                if (v.Party_Abbreviation === "LAB.") {
+                    p.are_party--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_party: 0 };
+        },
+    );
+
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_party);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatArecandidate)
+}
+
+function show_count_elected_lab(ndx, gender, element) {
+    var countThatAreElected = ndx.groupAll().reduce(
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count++;
+                if ((v.Party_Abbreviation === "LAB.") && (v.Result === "Elected")) {
+                    p.are_elected++;
+                }
+            }
+            return p;
+        },
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count--;
+                if ((v.Party_Abbreviation === "LAB.") && (v.Result === "Elected")) {
+                    p.are_elected--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_elected: 0 };
+
+        },
+    );
+
+    console.log(countThatAreElected);
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_elected);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatAreElected)
+}
+
+function show_count_candidate_sf(ndx, gender, element) {
+    var countThatArecandidate = ndx.groupAll().reduce(
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count++;
+                if (v.Party_Abbreviation === "S.F.") {
+                    p.are_party++;
+                }
+            }
+            return p;
+        },
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count--;
+                if (v.Party_Abbreviation === "S.F.") {
+                    p.are_party--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_party: 0 };
+        },
+    );
+
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_party);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatArecandidate)
+}
+
+function show_count_elected_sf(ndx, gender, element) {
+    var countThatAreElected = ndx.groupAll().reduce(
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count++;
+                if ((v.Party_Abbreviation === "S.F.") && (v.Result === "Elected")) {
+                    p.are_elected++;
+                }
+            }
+            return p;
+        },
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count--;
+                if ((v.Party_Abbreviation === "S.F.") && (v.Result === "Elected")) {
+                    p.are_elected--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_elected: 0 };
+
+        },
+    );
+
+    console.log(countThatAreElected);
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_elected);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatAreElected)
+}
+
+function show_count_candidate_others(ndx, gender, element) {
+    var countThatArecandidate = ndx.groupAll().reduce(
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count++;
+                if (v.Party_Abbreviation === "Others") {
+                    p.are_party++;
+                }
+            }
+            return p;
+        },
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count--;
+                if (v.Party_Abbreviation === "Others") {
+                    p.are_party--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_party: 0 };
+        },
+    );
+
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_party);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatArecandidate)
+}
+
+function show_count_elected_others(ndx, gender, element) {
+    var countThatAreElected = ndx.groupAll().reduce(
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count++;
+                if ((v.Party_Abbreviation === "Others") && (v.Result === "Elected")) {
+                    p.are_elected++;
+                }
+            }
+            return p;
+        },
+        function(p, v, ) {
+            if (v.Gender === gender) {
+                p.count--;
+                if ((v.Party_Abbreviation === "Others") && (v.Result === "Elected")) {
+                    p.are_elected--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_elected: 0 };
+
+        },
+    );
+
+    console.log(countThatAreElected);
+    dc.numberDisplay(element)
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_elected);
+            }
+        })
+        // .transitionDuration(1500)
+        .formatNumber(d3.format("1.s"))
+        .group(countThatAreElected)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//this is the testing section 
+
+
+
+
+function show_count_elected_by_gender(ndx, gender, element) {
+    var countThatAreElected = ndx.groupAll().reduce(
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count++;
+                if (v.Result === "Elected") {
+                    p.are_elected++;
+                }
+            }
+            return p;
+        },
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count--;
+                if (v.Result === "Elected") {
+                    p.are_elected--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_elected: 0 };
+        },
+    );
+
+
+    dc.numberDisplay(element)
+        // .formatNumber(d3.format("2.s"))
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_elected);
+            }
+        })
+        .transitionDuration(1500)
+        .group(countThatAreElected)
+}
+
+function show_count_candidate_gender(ndx, gender, element) {
+    var countThatArecandidate = ndx.groupAll().reduce(
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count++;
+                if (v.Result === "Excluded") {
+                    p.are_excluded++;
+                }
+            }
+            return p;
+        },
+        function(p, v) {
+            if (v.Gender === gender) {
+                p.count--;
+                if (v.Result === "Excluded") {
+                    p.are_excluded--;
+                }
+            }
+            return p;
+        },
+        function() {
+            return { count: 0, are_excluded: 0 };
+        },
+    );
+
+
+    dc.numberDisplay(element)
+        // .formatNumber(d3.format("2.s"))
+        .valueAccessor(function(d) {
+            if (d.count == 0) {
+                return 0;
+            }
+            else {
+                return (d.are_excluded);
+            }
+        })
+        .transitionDuration(1500)
+        .group(countThatArecandidate)
+}
 
 
 
@@ -411,45 +937,6 @@ function show_data_table(ndx) {
 
 
 
-function show_count_candidate_gender(ndx, gender, element) {
-    var countThatArecandidate = ndx.groupAll().reduce(
-        function(p, v) {
-            if (v.Gender === gender) {
-                p.count++;
-                if (v.Result === "Excluded") {
-                    p.are_excluded++;
-                }
-            }
-            return p;
-        },
-        function(p, v) {
-            if (v.Gender === gender) {
-                p.count--;
-                if (v.Result === "Excluded") {
-                    p.are_excluded--;
-                }
-            }
-            return p;
-        },
-        function() {
-            return { count: 0, are_excluded: 0 };
-        },
-    );
-
-
-    dc.numberDisplay(element)
-        // .formatNumber(d3.format("2.s"))
-        .valueAccessor(function(d) {
-            if (d.count == 0) {
-                return 0;
-            }
-            else {
-                return (d.are_excluded);
-            }
-        })
-        .transitionDuration(1500)
-        .group(countThatArecandidate)
-}
 
 
 
