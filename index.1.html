@@ -8,16 +8,16 @@
     <title>Dashboard</title>
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/dc.min.css" type="text/css" />
+    <!--<link rel="stylesheet" href="assets/css/dc.min.css" type="text/css" />-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="assets/js/d3.min.js"></script>
     <script type="text/javascript" src="assets/js/crossfilter.min.js"></script>
     <script type="text/javascript" src="assets/js/dc.min.js"></script>
     <script type="text/javascript" src="assets/js/queue.min.js"></script>
-    <script type="text/javascript" src="assets/js/graps.js"></script>
+    <script type="text/javascript" src="assets/js/graps.1.js"></script>
 
 </head>
 
@@ -37,13 +37,13 @@
             <div class="row">
                 <div class="row">
                     <div class="col-xs-12 col-sm-4 text-center">
-                        <p class="section-paragraph">????????</p>
+                        <p class="section-paragraph">Men outnumber women 10 to 1</p>
                     </div>
                     <div class="col-xs-12 col-sm-4 text-center">
-                        <p class="section-paragraph">??????????</p>
+                        <p class="section-paragraph">Men earn on average about 15% more</p>
                     </div>
                     <div class="col-xs-12 col-sm-4 text-center">
-                        <p class="section-paragraph">??????????</p>
+                        <p class="section-paragraph">Distribution of ranks is weighted towards the upper level for men.</p>
                     </div>
                 </div>
                 <div class="container">
@@ -57,15 +57,8 @@
         </div>
         <div class="row col-12"></div>
         <div class="col-xs-12 col-sm-12 col-lg-12 gender-box">
-            <i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="count-of-women-elected_1"></span>
-            <i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="count-of-men-elected_1"></span>
-            <i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="count-of-women-elected"></span>
-            <i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="count-of-men-elected"></span>
-
-        </div>
-        <div class="col-xs-12 col-sm-12 col-lg-12 gender-box">
-            <!--<i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="count-of-women-elected_1"></span>-->
-            <!--<i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="count-of-men-elected_1"></span>-->
+            <i class="fa fa-female fa-gender" aria-hidden="true"></i> <span class="number-box" id="percent-of-women-professors"></span>
+            <i class="fa fa-male fa-gender" aria-hidden="true"></i> <span class="number-box" id="percent-of-men-professors"></span>
         </div>
     </section>
 
@@ -76,22 +69,20 @@
                     <div>
                         <div>
                             <div class=" " id="party_first_preference_graphs"></div>
-                            <h1><strong>First Preferance Votes</strong></h1>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <div>
                         <div>
-                            <div class="" id="candidate-graph"></div>
-                            <h1><strong>Seats by Party</strong></h1>
+                            <div class="" id="party_total_votes_graphs"></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                     <div>
                         <div>
-                            <div class="" id="xx">
+                            <div class="" id="candidate-first-preferance-graph">
                             </div>
                         </div>
                     </div>
@@ -100,17 +91,17 @@
                     <div>
                         <div>
                             <!--<div class="" id="candidate-graph">-->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
 
 
-    <div class="" id="candidate-people"></div>
-    <!--<div class="" id="candidate-graph-v2"></div>-->
+<div class="" id="candidate-graph"></div>
+<div class="" id="candidate-graph-v2"></div>
 
 
 
@@ -135,33 +126,6 @@
 
 
 
-
-    <section class="section">
-        <div class="container">
-            <div class="row">
-                <h4>list of data</h4>
-                <table id="dc-data-table" class="table table-bordered">
-                    <thead>
-                        <tr class="header">
-                            <th>Constituency</th>
-                            <th>Candidate</th>
-                            <th>Gender</th>
-                            <th>Party</th>
-                            <th>Party Abbreviation</th>
-                            <th>Result</th>
-                            <th>Count 1</th>
-                            <th>Final Count</th>
-                        </tr>
-                    </thead>
-                </table>
-                <div id="paging">
-                    Showing <span id="begin"></span>-<span id="end"></span> of <span id="size"></span> <span id="totalsize"></span>
-                    <input id="last" class="btn" type="Button" value="Last" onclick="javascript:last()" />
-                    <input id="next" class="btn" type="button" value="Next" onclick="javascript:next()" />
-                </div>
-            </div>
-        </div>
-    </section>
 
 
 

@@ -13,6 +13,12 @@
 }
 
 
+/*This removes the gridlines on the row chart but causes issue with x axesis */
+/*.tick  { */
+/*    display: none;*/
+/*     }*/
+
+
 
 
 
