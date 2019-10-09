@@ -1,5 +1,5 @@
 .party_color_ff {
-    background-color: #91B905;
+    background-color:#12A853 ;
 
 }
 
@@ -19,7 +19,7 @@
 }
 
 .party_color_gp {
-    background-color: #12A853;
+    background-color: #91B905;
 
 }
 
@@ -28,19 +28,19 @@
 
 }
 
-.gender_container {
-    margin-left: 10px;
-    margin-right: 10px;
-    display: flex;
-    flex-wrap: nowrap;
-}
+/*.gender_container {*/
+    /*margin-left: 10px;*/
+    /*margin-right: 10px;*/
+/*    display: flex;*/
+/*    flex-wrap: nowrap;*/
+/*}*/
 
 .gender_party_box {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border-radius: 20px;
-    padding: 10px;
-    margin: 5px;
+    /*padding: 10px;*/
+    /*margin: 5px;*/
   
 }
 
