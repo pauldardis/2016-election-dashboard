@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/dc.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/test.css" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/d3.min.js"></script>
+    <script type="text/javascript" src="assets/js/crossfilter.min.js"></script>
+    <script type="text/javascript" src="assets/js/dc.min.js"></script>
+    <script type="text/javascript" src="assets/js/queue.min.js"></script>
+    <script type="text/javascript" src="assets/js/graps.js"></script>
+
+</head>
+
+<body>
+
+    <section class="section">
+        <div id="refresh-button">
+            <button type="submit" class="btn btn-success" onClick="refreshPage()">Refresh Charts</button>
+        </div>
+    </section>
+
+
+
+    <section class="section">
+        <div class="container-fluid">
+            <div class="selection-container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center custom-chart" id="region-selector">
+                        <h2 class="selection-text">Select Region</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center custom-chart" id="constituency-selector">
+                        <h2 class="selection-text">Select Constituency</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container-fluid">
+            <div class="gender_container">
+                <div class="party_color_ff gender_party_box">
+                    <h3 class="party-name">Fianna Fáil</h3>
+                    <h4 class="gender-text">Total Candidates</h4>
+                    <div>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-candidate-ff"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-candidate-ff"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="gender-text">Total Elected</h4>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-elected-ff"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-elected-ff"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="party_color_fg gender_party_box">
+                    <h3 class="party-name">Fine Gael</h3>
+                    <h4 class="gender-text">Total Candidates</h4>
+                    <div>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-candidate-fg"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-candidate-fg"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="gender-text">Total Elected</h4>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-elected-fg"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-elected-fg"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="party_color_sf gender_party_box">
+                    <h3 class="party-name">Sinn Féin</h3>
+                    <h4 class="gender-text">Total Candidates</h4>
+                    <div>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-candidate-sf"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-candidate-sf"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="gender-text">Total Elected</h4>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-elected-sf"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-elected-sf"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="party_color_lab gender_party_box">
+                    <h3 class="party-name">Labour</h3>
+                    <h4 class="gender-text">Total Candidates</h4>
+                    <div>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-candidate-lab"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-candidate-lab"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="gender-text">Total Elected</h4>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-elected-lab"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-elected-lab"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="party_color_gp gender_party_box">
+                    <h3 class="party-name">Green's</h3>
+                    <h4 class="gender-text">Total Candidates</h4>
+                    <div>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-candidate-gp"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-candidate-gp"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="gender-text">Total Elected</h4>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-elected-gp"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-elected-gp"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="party_color_others gender_party_box">
+                    <h3 class="party-name">Others</h3>
+                    <h4 class="gender-text">Total Candidates</h4>
+                    <div>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-candidate-others"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-candidate-others"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="gender-text">Total Elected</h4>
+                        <div class="gender-row">
+                            <div class="gender-icon">
+                                <i class="fa fa-female fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-women-elected-others"></span>
+                            </div>
+                            <div class="gender-icon">
+                                <i class="fa fa-male fa-gender" aria-hidden="true"></i>
+                            </div>
+                            <div class="gender-num-div">
+                                <span class="gender_number" id="count-of-men-elected-others"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="center-graphs">
+                        <h2 class="selection-text">First Preferance Votes</h2>
+                        <span class=" " id="party_first_preference_graphs"></span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="center-graphs">
+                        <h2 class="selection-text">Seats by Party</h2>
+                        <span class="" id="candidate-graph"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <h4>list of data</h4>
+                <table id="dc-data-table" class="table table-bordered">
+                    <thead>
+                        <tr class="header">
+                            <th>Constituency</th>
+                            <th>Candidate</th>
+                            <th>Gender</th>
+                            <th>Party</th>
+                            <th>Party Abbreviation</th>
+                            <th>Result</th>
+                            <th>Count 1</th>
+                            <th>Final Count</th>
+                        </tr>
+                    </thead>
+                </table>
+                <div id="paging">
+                    Showing <span id="begin"></span>-<span id="end"></span> of <span id="size"></span> <span id="totalsize"></span>
+                    <input id="last" class="btn" type="Button" value="Last" onclick="javascript:last()" />
+                    <input id="next" class="btn" type="button" value="Next" onclick="javascript:next()" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>

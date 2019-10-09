@@ -12,6 +12,59 @@
 	margin-right: auto;
 }
 
+.party_gender_box {
+      display: flex;
+  flex-wrap: nowrap;
+}
+
+.party_box {
+          display: flex;
+  flex-wrap: nowrap;
+    
+}
+
+
+
+
+.party_box_ff {
+      height: 50px;
+  width: 100px;
+  background-color: green;
+}
+
+.party_box_fg {
+   height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.party_box_lab {
+   height: 50px;
+  width: 100px;
+  background-color: red;
+}
+
+.party_box_gp {
+   height: 50px;
+  width: 100px;
+  background-color: yellow;
+}
+
+
+.party_box_sf {
+   height: 50px;
+  width: 100px;
+  background-color: purple;
+}
+
+
+.party_box_others {
+   height: 50px;
+  width: 100px;
+  background-color: gray;
+}
+
+
 
 /*This removes the gridlines on the row chart but causes issue with x axesis */
 /*.tick  { */
