@@ -65,6 +65,13 @@
 }
 
 
+.dc-table-label {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 
 /*This removes the gridlines on the row chart but causes issue with x axesis */
 /*.tick  { */
@@ -87,6 +94,51 @@
 /*	margin: 0px;*/
 /*	padding: 0px;*/
 /*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -128,6 +180,8 @@
 .fa-gender {
 	margin-right: 10px;
 }
+
+
 
 .custom-chart {
 	margin-bottom: 40px;

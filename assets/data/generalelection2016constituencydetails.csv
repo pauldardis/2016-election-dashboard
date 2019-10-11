@@ -1,0 +1,41 @@
+Region,Constituency_Name,Spoiled,Valid_Poll,Total_Electorate,Percentage_Turnout
+Leinster,Carlow Kilkenny,505,70009,107023,66%
+Ulster,Cavan Monaghan,598,59650,90618,66%
+Munster,Clare,407,57000,83660,69%
+Munster,Cork East,445,52806,83236,64%
+Munster,Cork North Central,516,51174,81609,63%
+Munster,Cork North West,395,46958,67589,70%
+Munster,Cork South Central,404,55682,84482,66%
+Munster,Cork South West,331,43258,63583,69%
+Ulster,Donegal,654,73303,117675,63%
+Dublin,Dublin Bay North,709,73625,109516,68%
+Dublin,Dublin Bay South,313,39703,74326,54%
+Dublin,Dublin Central,304,23686,46028,52%
+Dublin,Dublin Fingal,462,60388,93486,65%
+Dublin,Dublin Mid West,446,43104,69388,63%
+Dublin,Dublin North West,463,37009,60406,62%
+Dublin,Dublin Rathdown,226,41099,62340,66%
+Dublin,Dublin South Central,694,42857,74666,58%
+Dublin,Dublin South West,647,67271,105420,64%
+Dublin,Dublin West,320,41952,64639,65%
+Dublin,Dún Laoghaire,401,59238,92248,65%
+Connacht,Galway East,379,45238,68432,67%
+Connacht,Galway West,488,64271,103704,62%
+Munster,Kerry,476,79273,112751,71%
+Leinster,Kildare North,291,48935,77609,63%
+Leinster,Kildare South,386,36786,59162,63%
+Leinster,Laois,352,38868,63295,62%
+Munster,Limerick City,357,46761,75568,62%
+Munster,Limerick County,336,44412,67633,66%
+Leinster,Longford Westmeath,570,55246,89241,63%
+Leinster,Louth,749,67529,104696,65%
+Connacht,Mayo,600,63646,92958,69%
+Leinster,Meath East,240,41388,65588,63%
+Leinster,Meath West,315,38605,64600,60%
+Leinster,Offaly,411,44034,65636,68%
+Connacht,Roscommon Galway,315,45680,64235,72%
+Connacht,Sligo Leitrim,560,62335,95911,66%
+Munster,Tipperary,646,77948,112615,70%
+Munster,Waterford,400,51703,81819,64%
+Leinster,Wexford,691,71661,109861,66%
+Leinster,Wicklow,596,68804,97858,71%
