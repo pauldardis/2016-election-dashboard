@@ -1,26 +1,35 @@
 /*@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap");*/
 
-
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-     background: #ffffff;
+    background: #ffffff;
 }
 
-   .navbar-brand {
-        font-size: 2rem;
-    }
+.title-container {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+
+.navbar-brand {
+    font-size: 2rem;
+}
 
 
 .dc-select-menu {
-    background-color:#f1f1f1;
+    background-color: #f1f1f1;
     font-size: 18px
 }
 
 
 
 .party_color_ff {
-    background-color:#12A853 ;
+    background-color: #12A853;
 
 }
 
@@ -46,7 +55,7 @@ body {
 
 .party_color_fg {
     background-color: #00A3DF;
-   
+
 }
 
 .gender_party_box {
@@ -55,7 +64,7 @@ body {
     border-radius: 20px;
     margin: 10px;
 
-  
+
 }
 
 .party-name {
@@ -92,12 +101,12 @@ body {
     display: flex;
     flex-wrap: nowrap;
     padding-left: 25px;
-    
+
 }
 
 .fff {
-     border-style: solid;
-     border: 10px;
+    border-style: solid;
+    border: 10px;
 }
 
 
@@ -118,17 +127,17 @@ body {
 }
 
 .section {
-	border-bottom: 1px solid #e6e6e6;
-	padding: 20px 0;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 20px 0;
 }
 
 .selection-text {
     font-weight: bold;
-    
+
 }
 
 .custom-chart {
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 
 }
 
@@ -143,17 +152,15 @@ body {
 
 
 /*    this is not working     */
+
 .dc-table-label {
-padding-top: 0px;
+    padding-top: 0px;
     padding-bottom: 0px;
 
-    
+
 }
+
 .dc-table-group {
     padding-top: 0px;
     padding-bottom: 0px;
 }
-
-
-
-

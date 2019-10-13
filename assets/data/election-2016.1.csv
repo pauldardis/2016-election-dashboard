@@ -1,0 +1,552 @@
+Region,Constituency_Name,Candidate,Gender,Party,Party_Abbreviation,Party_Abbreviation_v2,Seat,Result,Count_1,Count_2,Count_3,Count_4,Count_5,Count_6,Count_7,Count_8,Count_9,Count_10,Count_11,Count_12,Count_13,Count_14,Count_15,Count_16,Total_Votes
+Leinster,Carlow Kilkenny,Adrienne Wallace,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1582,1728,1769,2342,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Carlow Kilkenny,Ann Phelan,F,The Labour Party,LAB.,LAB.,0,Excluded,4391,4396,4442,4465,4548,4740,5566,5596,0,0,0,0,0,0,0,0,0
+Leinster,Carlow Kilkenny,Bobby Aylward,M,Fianna Fáil,F.F.,F.F.,1,Elected,9366,9375,9469,9491,9549,9803,9956,10030,10634,11077,11335,0,0,0,0,0,11335
+Leinster,Carlow Kilkenny,Conor Mac Liam,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1120,1179,1231,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Carlow Kilkenny,David Fitzgerald,M,Fine Gael,F.G.,F.G.,0,Excluded,5017,5021,5094,5106,5122,5355,5686,5721,6588,0,0,0,0,0,0,0,0
+Leinster,Carlow Kilkenny,Jennifer Murnane-O'Connor,F,Fianna Fáil,F.F.,F.F.,0,Excluded,8373,8436,8502,8540,8745,8919,9023,9049,9371,9459,9518,0,0,0,0,0,0
+Leinster,Carlow Kilkenny,John McGuinness,M,Fianna Fáil,F.F.,F.F.,1,Elected,10528,10545,10823,10886,10965,11490,11903,11669,11669,11669,11669,0,0,0,0,0,11669
+Leinster,Carlow Kilkenny,John Paul Phelan,M,Fine Gael,F.G.,F.G.,1,Elected,7568,7577,7689,7713,7768,8080,8420,8450,10222,14200,11669,0,0,0,0,0,11669
+Leinster,Carlow Kilkenny,Kathleen Funchion,F,Sinn Féin,S.F.,S.F.,1,Elected,8700,8838,8891,9094,9856,10228,10934,10970,11516,11720,11720,0,0,0,0,0,11720
+Leinster,Carlow Kilkenny,Keith Martin Gilligan,M,Non-Party,Others,NON-P.,0,Excluded,456,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Carlow Kilkenny,Malcolm Noonan,M,Green Party,G.P.,G.P.,0,Excluded,2621,2655,2717,2816,3208,3660,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Carlow Kilkenny,Noel G. Walsh,M,Non-Party,Others,NON-P.,0,Excluded,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Carlow Kilkenny,Paddy Manning,M,Non-Party,Others,NON-P.,0,Excluded,1078,1142,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Carlow Kilkenny,Pat Deering,M,Fine Gael,F.G.,F.G.,1,Elected,6562,6580,6606,6623,6693,6829,6937,6940,7675,8935,11149,0,0,0,0,0,11149
+Leinster,Carlow Kilkenny,Patrick McKee,M,Renua Ireland,Others,R.I.,0,Excluded,2483,2511,2656,2752,3005,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Aoife O'Connell,F,Direct Democracy,Others,D.D.I.,0,Excluded,279,282,292,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Brendan Smith,M,Fianna Fáil,F.F.,F.F.,1,Elected,8775,8802,8807,8850,8952,9046,9142,10926,11357,12120,0,0,0,0,0,0,12120
+Ulster,Cavan Monaghan,Caoimhghín Ó Caoláin,M,Sinn Féin,S.F.,S.F.,1,Elected,10060,10104,10119,10265,10415,10651,11047,11867,17182,11931,0,0,0,0,0,0,11931
+Ulster,Cavan Monaghan,Emmett Smith,M,Non-Party,Others,NON-P.,0,Excluded,245,246,258,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Heather Humphreys,F,Fine Gael,F.G.,F.G.,1,Elected,12391,11931,11931,11931,11931,11931,11931,11931,11931,11931,0,0,0,0,0,0,11931
+Ulster,Cavan Monaghan,James Mee,M,Non-Party,Others,NON-P.,0,Excluded,88,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Joe O'Reilly,M,Fine Gael,F.G.,F.G.,0,Excluded,6566,6846,6848,6887,6977,7255,7715,8063,8321,8790,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,John Wilson,M,Non-Party,Others,NON-P.,0,Excluded,1023,1029,1036,1171,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Kathryn Reilly,F,Sinn Féin,S.F.,S.F.,0,Excluded,6066,6073,6078,6268,6419,6599,6737,6993,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Mary Smyth,F,Non-Party,Others,NON-P.,0,Excluded,1589,1600,1609,1709,1911,2062,2340,0,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Michael McDermott,M,Direct Democracy,Others,D.D.I.,0,Excluded,475,476,479,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Micheal Callaghan,M,Green Party,G.P.,G.P.,0,Excluded,1251,1262,1269,1410,1523,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Mike Durkan,M,Fianna Fáil,F.F.,F.F.,0,Excluded,2909,2927,2931,2941,2977,3062,3246,0,0,0,0,0,0,0,0,0,0
+Ulster,Cavan Monaghan,Niamh Smyth,F,Fianna Fáil,F.F.,F.F.,1,Elected,6268,6296,6297,6342,6455,6584,6742,8216,8762,9644,0,0,0,0,0,0,9644
+Ulster,Cavan Monaghan,Sean Conlan,M,Non-Party,Others,NON-P.,0,Excluded,1665,1686,1688,1754,1853,1980,0,0,0,0,0,0,0,0,0,0,0
+Munster,Clare,Andres Siro Hakizimana,M,Non-Party,Others,NON-P.,0,Excluded,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Clare,Ann Norton,F,Non-Party,Others,NON-P.,0,Excluded,2240,2321,2442,2521,2686,2982,3152,3205,0,0,0,0,0,0,0,0,0
+Munster,Clare,Clare Colleran-Molloy,F,Fianna Fáil,F.F.,F.F.,0,Excluded,2639,2673,2697,2716,2824,2880,0,0,0,0,0,0,0,0,0,0,0
+Munster,Clare,Dermot Mulqueen,M,Non-Party,Others,NON-P.,0,Excluded,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Clare,Fergal Smith,M,Green Party,G.P.,G.P.,0,Excluded,1700,1764,2092,2144,2193,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Clare,Ian Lynch,M,Non-Party,Others,NON-P.,0,Excluded,1494,1535,1575,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Clare,Joe Carey,M,Fine Gael,F.G.,F.G.,1,Elected,6071,6115,6148,6195,6778,6894,7032,7062,7422,7535,7931,9915,0,0,0,0,9915
+Munster,Clare,Mary Howard,F,Fine Gael,F.G.,F.G.,0,Excluded,2053,2076,2098,2119,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Clare,Michael Harty,M,Non-Party,Others,NON-P.,1,Elected,8629,8812,8978,9605,9840,10360,10688,10843,11962,11401,11401,11401,0,0,0,0,11401
+Munster,Clare,Michael Malty McDonagh,M,Fianna Fáil,F.F.,F.F.,0,Excluded,4726,4749,4764,4954,4997,5056,5497,5887,6139,6229,6929,7762,0,0,0,0,0
+Munster,Clare,Michael McNamara,M,The Labour Party,LAB.,LAB.,0,Excluded,4472,4516,4587,4672,4896,5347,5498,5569,5955,6090,6844,0,0,0,0,0,0
+Munster,Clare,Niamh O'Brien,F,Fís Nua,Others,F.N.,0,Excluded,1154,1216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Clare,Noeleen Moran,F,Sinn Féin,S.F.,S.F.,0,Excluded,4216,4277,4519,4611,4664,4957,5058,5083,5473,5601,0,0,0,0,0,0,0
+Munster,Clare,Pat Breen,M,Fine Gael,F.G.,F.G.,1,Elected,6583,6621,6640,6857,7337,7420,7512,7537,7815,7910,8292,10088,0,0,0,0,10088
+Munster,Clare,Richard Cahill,M,Non-Party,Others,NON-P.,0,Excluded,699,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Clare,Timmy Dooley,M,Fianna Fáil,F.F.,F.F.,1,Elected,10215,10292,10382,10480,10624,10772,12150,11401,11401,11401,11401,11401,0,0,0,0,11401
+Munster,Cork East,Barbara Ahern,F,Fianna Fáil,F.F.,F.F.,0,Excluded,4594,4635,4730,4824,4986,5081,5553,6216,6432,6781,0,0,0,0,0,0,0
+Munster,Cork East,Ciara Leonardi-Roche,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1999,2176,2586,3237,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork East,David Stanton,M,Fine Gael,F.G.,F.G.,1,Elected,7171,7296,7401,7484,7593,8312,9099,9647,11558,11558,0,0,0,0,0,0,11558
+Munster,Cork East,Ken Curtin,M,Social Democrats,Others,S.D.,0,Excluded,1386,1570,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork East,Kevin O'Keeffe,M,Fianna Fáil,F.F.,F.F.,1,Elected,8264,8290,8347,8416,8548,8875,9254,9880,11035,11035,0,0,0,0,0,0,11035
+Munster,Cork East,Kieran McCarthy,M,Non-Party,Others,NON-P.,0,Excluded,1635,1692,1813,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork East,Mary Linehan-Foley,F,Non-Party,Others,NON-P.,0,Excluded,3145,3280,3365,3515,4104,4132,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork East,Natasha Harty,F,Green Party,G.P.,G.P.,0,Excluded,806,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork East,Noel McCarthy,M,Fine Gael,F.G.,F.G.,0,Excluded,4406,4425,4479,4565,4718,5688,5779,6203,0,0,0,0,0,0,0,0,0
+Munster,Cork East,Paddy Bullman,M,Non-Party,Others,NON-P.,0,Excluded,241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork East,Pat Buckley,M,Sinn Féin,S.F.,S.F.,1,Elected,5358,5437,5572,5969,6776,6861,7681,8175,8457,8639,0,0,0,0,0,0,8639
+Munster,Cork East,Paul Bradford,M,Renua Ireland,Others,R.I.,0,Excluded,3244,3327,3460,3531,3834,4191,4596,0,0,0,0,0,0,0,0,0,0
+Munster,Cork East,Ross Cannon,M,Non-Party,Others,NON-P.,0,Excluded,147,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork East,Sean Sherlock,M,The Labour Party,LAB.,LAB.,1,Elected,6949,7124,7394,7486,7780,8674,8986,9916,11803,10562,0,0,0,0,0,0,10562
+Munster,Cork East,Tom Barry,M,Fine Gael,F.G.,F.G.,0,Excluded,3461,3495,3520,3532,3573,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North Central,Billy Kelleher,M,Fianna Fáil,F.F.,F.F.,1,Elected,14286,10235,10235,10235,10235,10235,10235,10235,10235,10235,10235,0,0,0,0,0,10235
+Munster,Cork North Central,Dara Murphy,M,Fine Gael,F.G.,F.G.,1,Elected,5264,5718,5746,5800,5957,6008,6166,6250,6369,6403,9256,0,0,0,0,0,9256
+Munster,Cork North Central,Ger Keohane,M,Non-Party,Others,NON-P.,0,Excluded,912,1152,1300,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North Central,Jonathan O'Brien,M,Sinn Féin,S.F.,S.F.,1,Elected,6231,6641,6754,6865,6939,7260,7462,11079,10235,10235,10235,0,0,0,0,0,10235
+Munster,Cork North Central,Julie O'Leary,F,Fine Gael,F.G.,F.G.,0,Excluded,3841,4283,4364,4443,4687,4771,5138,5225,5488,5581,0,0,0,0,0,0,0
+Munster,Cork North Central,Kathleen Lynch,F,The Labour Party,LAB.,LAB.,0,Excluded,3723,4358,4419,4506,4608,4718,5286,5436,5805,5973,7491,0,0,0,0,0,0
+Munster,Cork North Central,Mick Barry,M,Anti-Austerity Alliance,Others,AAA-PBP,1,Elected,8041,8713,8904,9138,9347,10097,10714,10714,10714,10235,10235,0,0,0,0,0,10235
+Munster,Cork North Central,Mick Murphy,M,Non-Party,Others,NON-P.,0,Excluded,215,265,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North Central,Oliver Moran,M,Green Party,G.P.,G.P.,0,Excluded,1693,1936,2011,2108,2331,2490,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North Central,Paddy O'Leary,M,Renua Ireland,Others,R.I.,0,Excluded,1120,1445,1520,1716,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North Central,Peter O'Loughlin,M,Non-Party,Others,NON-P.,0,Excluded,183,218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North Central,Ted Tynan,M,Workers Party,Others,W.P.,0,Excluded,1419,1615,1694,1805,1919,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North Central,Thomas Gould,M,Sinn Féin,S.F.,S.F.,0,Excluded,3773,4047,4100,4175,4236,4398,4458,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North Central,Thomas Kiely,M,Non-Party,Others,NON-P.,0,Excluded,473,548,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North West,Aindrias Moynihan,M,Fianna Fáil,F.F.,F.F.,1,Elected,8924,9004,9201,9367,9678,9956,10755,11141,11959,0,0,0,0,0,0,0,11959
+Munster,Cork North West,Áine Collins Collins,F,Fine Gael,F.G.,F.G.,0,Excluded,6237,6297,6495,6685,6944,7191,7388,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North West,Cormac Manning,M,Green Party,G.P.,G.P.,0,Excluded,1354,1501,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North West,Diarmuid O'Flynn,M,Non-Party,Others,NON-P.,0,Excluded,2159,2317,2499,2727,2930,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North West,Jason Fitzgerald,M,Renua Ireland,Others,R.I.,0,Excluded,1568,1633,1760,1880,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North West,Jerry O'Sullivan,M,Non-Party,Others,NON-P.,0,Excluded,478,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North West,John Paul O'Shea,M,Non-Party,Others,NON-P.,0,Excluded,4814,4919,5033,5444,5723,6687,7897,8549,9680,0,0,0,0,0,0,0,0
+Munster,Cork North West,Michael Creed,M,Fine Gael,F.G.,F.G.,1,Elected,8869,9024,9174,9327,9566,9747,10078,14957,11740,0,0,0,0,0,0,0,11740
+Munster,Cork North West,Michael Moynihan,M,Fianna Fáil,F.F.,F.F.,1,Elected,7332,7344,7374,7519,7758,8144,8388,9228,9929,0,0,0,0,0,0,0,9929
+Munster,Cork North West,Michael O’ Donnell,M,Communist Party,Others,C.P.I.,0,Excluded,185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North West,Nigel Dennehy,M,Sinn Féin,S.F.,S.F.,0,Excluded,3238,3334,3485,3633,3783,4256,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North West,Shirley Griffin,F,Non-Party,Others,NON-P.,0,Excluded,439,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork North West,Steven O'Riordan,M,Non-Party,Others,NON-P.,0,Excluded,1361,1530,1728,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South Central,Ciarán Kenneally,M,Renua Ireland,Others,R.I.,0,Excluded,887,931,944,951,990,1014,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South Central,Ciarán Lynch,M,The Labour Party,LAB.,LAB.,0,Excluded,2417,2462,2478,2481,2504,2513,2574,2611,2685,0,0,0,0,0,0,0,0
+Munster,Cork South Central,Diarmaid Ó Cadhla,M,Non-Party,Others,NON-P.,0,Excluded,869,885,891,941,1047,1107,1188,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South Central,Donnchadh Uinseann Ó Laoghaire,M,Sinn Féin,S.F.,S.F.,1,Elected,6986,7090,7122,7152,7257,7414,7524,7877,8366,8526,10653,0,0,0,0,0,10653
+Munster,Cork South Central,Elizabeth Hourihane,F,Non-Party,Others,NON-P.,0,Excluded,304,327,329,333,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South Central,Fiona Ryan,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,937,954,960,976,1037,1492,1592,1882,0,0,0,0,0,0,0,0,0
+Munster,Cork South Central,Jerry Buttimer,M,Fine Gael,F.G.,F.G.,0,Excluded,6419,6498,6530,6532,6568,6582,6701,6727,6786,7843,9117,0,0,0,0,0,0
+Munster,Cork South Central,Jim O'Connell,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,795,810,815,829,880,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South Central,Joe Harris,M,Non-Party,Others,NON-P.,0,Excluded,350,371,376,388,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South Central,Lorna Bogue,F,Green Party,G.P.,G.P.,0,Excluded,2064,2095,2108,2114,2183,2243,2364,2452,2930,3291,0,0,0,0,0,0,0
+Munster,Cork South Central,Michael Joseph Mohally,M,Non-Party,Others,NON-P.,0,Excluded,170,173,176,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South Central,Michael McGrath,M,Fianna Fáil,F.F.,F.F.,1,Elected,11795,11137,11137,11137,11137,11137,11137,11137,11137,11137,11137,0,0,0,0,0,11137
+Munster,Cork South Central,Micheál Martin,M,Fianna Fáil,F.F.,F.F.,1,Elected,11346,11346,11137,11137,11137,11137,11137,11137,11137,11137,11137,0,0,0,0,0,11137
+Munster,Cork South Central,Mick Finn,M,Non-Party,Others,NON-P.,0,Excluded,2378,2423,2446,2454,2528,2583,2686,2869,3199,3356,0,0,0,0,0,0,0
+Munster,Cork South Central,Simon Coveney,M,Fine Gael,F.G.,F.G.,1,Elected,7965,8180,8233,8241,8293,8303,8468,8527,8591,9315,10372,0,0,0,0,0,10372
+Munster,Cork South West,Alan Coleman,M,Non-Party,Others,NON-P.,0,Excluded,4955,5272,5634,6405,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South West,Fiona Pettit O’leary,F,Non-Party,Others,NON-P.,0,Excluded,423,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South West,Gillian Powell,F,Non-Party,Others,NON-P.,0,Excluded,701,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South West,Jim Daly,M,Fine Gael,F.G.,F.G.,1,Elected,7370,7633,8523,8774,9799,0,0,0,0,0,0,0,0,0,0,0,9799
+Munster,Cork South West,Johnny O’ Mahony,M,Green Party,G.P.,G.P.,0,Excluded,752,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South West,Margaret Murphy O'Mahony,F,Fianna Fáil,F.F.,F.F.,1,Elected,8482,8845,9228,10020,11962,0,0,0,0,0,0,0,0,0,0,0,11962
+Munster,Cork South West,Michael Collins,M,Non-Party,Others,NON-P.,1,Elected,6765,7347,7793,9258,11063,0,0,0,0,0,0,0,0,0,0,0,11063
+Munster,Cork South West,Michael McCarthy,M,The Labour Party,LAB.,LAB.,0,Excluded,3035,3397,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South West,Noel Harrington,M,Fine Gael,F.G.,F.G.,0,Excluded,6433,6574,7377,7544,8208,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South West,Rachel McCarthy,F,Sinn Féin,S.F.,S.F.,0,Excluded,3656,3993,4260,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Cork South West,Theresa Heaney,F,Catholic Democrats,Others,C.D.,0,Excluded,686,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Donegal,Charlie McConalogue,M,Fianna Fáil,F.F.,F.F.,1,Elected,12533,12533,12218,12218,12218,12218,12218,12218,12218,12218,12218,12218,12218,0,0,0,12218
+Ulster,Donegal,Cordelia NicFhearraigh,F,Fís Nua,Others,F.N.,0,Excluded,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Donegal,Dessie Sheils,M,Non-Party,Others,NON-P.,0,Excluded,3724,3724,3739,3986,4166,4288,4463,4497,4540,0,0,0,0,0,0,0,0
+Ulster,Donegal,Frank McBrearty,M,Non-Party,Others,NON-P.,0,Excluded,1914,1917,1921,1981,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Donegal,Gary Doherty,M,Sinn Féin,S.F.,S.F.,0,Excluded,4136,4138,4142,4183,4377,4420,4456,0,0,0,0,0,0,0,0,0,0
+Ulster,Donegal,Ian McGarvey,M,Non-Party,Others,NON-P.,0,Excluded,982,982,989,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Donegal,Joe McHugh,M,Fine Gael,F.G.,F.G.,1,Elected,8412,8414,8443,8704,8795,8965,11016,11040,11061,11784,12469,12469,12218,0,0,0,12218
+Ulster,Donegal,Michael Mooney,M,Non-Party,Others,NON-P.,0,Excluded,397,402,407,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Donegal,Niamh Kennedy,F,Non-Party,Others,NON-P.,0,Excluded,1836,1842,1848,1983,2057,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Donegal,Paddy Harte,M,Fine Gael,F.G.,F.G.,0,Excluded,2831,2832,2838,2934,3133,3244,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Donegal,Pádraig MacLochlainn,M,Sinn Féin,S.F.,S.F.,0,Excluded,5742,5743,5773,5893,5961,6008,6032,6567,8509,9143,9716,9852,9898,0,0,0,0
+Ulster,Donegal,Pat The Cope Gallagher,M,Fianna Fáil,F.F.,F.F.,1,Elected,10198,10203,10362,10504,10694,10941,11160,11267,11398,11832,13138,12218,12218,0,0,0,12218
+Ulster,Donegal,Paula Mary Flanagan,F,Green Party,G.P.,G.P.,0,Excluded,428,442,443,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ulster,Donegal,Pearse Doherty,M,Sinn Féin,S.F.,S.F.,1,Elected,10300,10305,10330,10524,10870,11053,11190,14600,12218,12218,12218,12218,12218,0,0,0,12218
+Ulster,Donegal,Thomas Pringle,M,Non-Party,Others,NON-P.,1,Elected,6220,6239,6247,6498,6689,7389,7522,7617,7722,8491,9642,9888,10082,0,0,0,10082
+Ulster,Donegal,Tim Jackson,M,Non-Party,Others,NON-P.,0,Excluded,3580,3585,3601,3752,4034,4319,4524,4650,4790,5864,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Aodhán Ó Ríordáin,M,The Labour Party,LAB.,LAB.,0,Excluded,5675,5683,5701,5920,5932,6183,6201,6581,7057,7299,7320,7544,8547,9947,10329,0,0
+Dublin,Dublin Bay North,Averil Power,F,Non-Party,Others,NON-P.,0,Excluded,4911,4934,5052,5145,5294,5529,5678,5768,5828,6237,6338,6674,7668,0,0,0,0
+Dublin,Dublin Bay North,Cian O'Callaghan,M,Social Democrats,Others,S.D.,0,Excluded,3864,3875,3909,4093,4128,4179,4261,4313,4347,4587,4637,4796,0,0,0,0,0
+Dublin,Dublin Bay North,Damien O'Neill,M,Non-Party,Others,NON-P.,0,Excluded,1446,1470,1506,1517,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Deirdre Heney,F,Fianna Fáil,F.F.,F.F.,0,Excluded,3360,3376,3408,3448,3458,3498,3514,3577,3619,3943,3974,0,0,0,0,0,0
+Dublin,Dublin Bay North,Denise Mitchell,F,Sinn Féin,S.F.,S.F.,1,Elected,5039,5051,5067,5081,5247,5255,5510,5515,5517,5573,8281,8386,8596,9047,11348,0,11348
+Dublin,Dublin Bay North,Donna Cooney,F,Green Party,G.P.,G.P.,0,Excluded,1024,1038,1055,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Finian McGrath,M,Non-Party,Others,NON-P.,1,Elected,5878,5913,5990,6075,6150,6213,6321,6396,6450,6828,6930,7353,8069,9553,11191,0,11191
+Dublin,Dublin Bay North,Jimmy Guerin,M,Non-Party,Others,NON-P.,0,Excluded,756,782,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,John Lyons,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,4409,4455,4532,4600,4981,5002,6475,6494,6497,6682,7116,7209,7760,8476,0,0,0
+Dublin,Dublin Bay North,Michael O'Brien,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,2236,2253,2271,2282,2559,2562,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Mícheál Macdonncha,M,Sinn Féin,S.F.,S.F.,0,Excluded,3527,3540,3563,3576,3663,3668,3787,3790,3791,3850,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Naoise Ó Muirí,M,Fine Gael,F.G.,F.G.,0,Excluded,2868,2870,2875,2905,2908,3376,3381,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Paul Clarke,M,Non-Party,Others,NON-P.,0,Excluded,306,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Proinsias O'Conaráin,M,Non-Party,Others,NON-P.,0,Excluded,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Richard Bruton,M,Fine Gael,F.G.,F.G.,1,Elected,9792,9804,9860,9924,9934,10568,10578,13092,12271,12271,12271,12271,12271,12271,12271,0,12271
+Dublin,Dublin Bay North,Seán Haughey,M,Fianna Fáil,F.F.,F.F.,1,Elected,8007,8029,8094,8123,8157,8189,8232,8293,8345,9311,9378,11659,11956,12754,12754,0,12754
+Dublin,Dublin Bay North,Stephanie Bernadette Regan,F,Fine Gael,F.G.,F.G.,0,Excluded,1857,1865,1883,1939,1957,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Terence Flanagan,M,Renua Ireland,Others,R.I.,0,Excluded,3205,3273,3302,3348,3372,3418,3462,3525,3588,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay North,Tommy Broughan,M,Independents 4 Change,Others,I.4.C,1,Elected,5361,5398,5511,5578,5778,5856,6038,6065,6099,6583,6823,7003,7735,9477,11565,0,11565
+Dublin,Dublin Bay South,Alan Macstiofain,M,Non-Party,Others,NON-P.,0,Excluded,235,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay South,Annette Mooney,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1728,1819,2149,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay South,Chris Andrews,M,Sinn Féin,S.F.,S.F.,0,Excluded,3774,3796,3957,4511,4888,5197,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay South,Eamon Ryan,M,Green Party,G.P.,G.P.,1,Elected,4529,4631,4929,5277,6605,7560,8788,7941,0,0,0,0,0,0,0,0,7941
+Dublin,Dublin Bay South,Eoghan Murphy,M,Fine Gael,F.G.,F.G.,1,Elected,6567,6595,6661,6693,6873,7860,8023,8023,0,0,0,0,0,0,0,0,8023
+Dublin,Dublin Bay South,Eoin Tierney,M,Non-Party,Others,NON-P.,0,Excluded,151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay South,Glenna Lynch,F,Social Democrats,Others,S.D.,0,Excluded,2652,2694,2949,3527,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay South,Jim O'Callaghan,M,Fianna Fáil,F.F.,F.F.,1,Elected,4575,4596,4674,4744,4949,5969,6678,6921,0,0,0,0,0,0,0,0,6921
+Dublin,Dublin Bay South,John Dominic Keigher,M,Non-Party,Others,NON-P.,0,Excluded,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay South,Kate O'Connell,F,Fine Gael,F.G.,F.G.,1,Elected,5399,5416,5483,5527,5773,6324,6446,6547,0,0,0,0,0,0,0,0,6547
+Dublin,Dublin Bay South,Kevin Humphreys,M,The Labour Party,LAB.,LAB.,0,Excluded,4205,4227,4378,4480,4992,5391,5973,6221,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay South,Lucinda Creighton,F,Renua Ireland,Others,R.I.,0,Excluded,4229,4252,4385,4545,4820,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay South,Mannix Flynn,M,Non-Party,Others,NON-P.,0,Excluded,1525,1648,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Bay South,William D.j. Gorman,M,Non-Party,Others,NON-P.,0,Excluded,97,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Christy Burke,M,Non-Party,Others,NON-P.,0,Excluded,2406,2411,2418,2440,2452,2503,2822,3066,3083,3658,0,0,0,0,0,0,0
+Dublin,Dublin Central,Cieran Perry,M,Non-Party,Others,NON-P.,0,Excluded,1242,1258,1294,1309,1333,1492,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Cormac McKay,M,Direct Democracy,Others,D.D.I.,0,Excluded,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Diana O'Dwyer,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,721,749,830,845,909,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Éilis Ryan,F,Workers Party,Others,W.P.,0,Excluded,303,316,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Gary Gannon,M,Social Democrats,Others,S.D.,0,Excluded,2307,2327,2387,2411,2601,2832,3117,3514,3549,3931,4948,0,0,0,0,0,0
+Dublin,Dublin Central,Ian Noel Smyth,M,Green Party,G.P.,G.P.,0,Excluded,644,651,674,696,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Jacqui Gilbourne,F,Renua Ireland,Others,R.I.,0,Excluded,330,339,339,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Joe Costello,M,The Labour Party,LAB.,LAB.,0,Excluded,2092,2102,2121,2132,2245,2281,2345,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Kerry Guinan,F,Non-Party,Others,NON-P.,0,Excluded,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Mary Fitzpatrick,F,Fianna Fáil,F.F.,F.F.,0,Excluded,2508,2510,2517,2601,2632,2655,2810,2978,2984,0,0,0,0,0,0,0,0
+Dublin,Dublin Central,Mary Lou McDonald,F,Sinn Féin,S.F.,S.F.,1,Elected,5770,5780,5806,5825,5854,6016,6016,6016,5922,5922,5922,0,0,0,0,0,5922
+Dublin,Dublin Central,Maureen O'Sullivan,F,Non-Party,Others,NON-P.,1,Elected,1990,2009,2058,2085,2181,2377,2792,3181,3214,3923,5269,0,0,0,0,0,5269
+Dublin,Dublin Central,Paschal Donohoe,M,Fine Gael,F.G.,F.G.,1,Elected,3226,3228,3231,3276,3393,3405,3480,4478,4481,5127,5447,0,0,0,0,0,5447
+Dublin,Dublin Central,William  D.j. Gorman,M,Non-Party,Others,NON-P.,0,Excluded,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,Alan Farrell,M,Fine Gael,F.G.,F.G.,1,Elected,7514,7563,7627,7664,7672,8082,8244,8709,8969,9965,0,0,0,0,0,0,9965
+Dublin,Dublin Fingal,Barry Martin,M,Independents 4 Change,Others,I.4.C,0,Excluded,2412,2424,2694,3126,3404,3649,4298,5077,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,Brendan Ryan,M,The Labour Party,LAB.,LAB.,1,Elected,6009,6054,6125,6193,6210,6358,6800,7794,8424,9406,0,0,0,0,0,0,9406
+Dublin,Dublin Fingal,Clare Daly,F,Independents 4 Change,Others,I.4.C,1,Elected,9480,9552,9827,10566,10065,10065,10065,10065,10065,10065,0,0,0,0,0,0,10065
+Dublin,Dublin Fingal,Darragh O'Brien,M,Fianna Fáil,F.F.,F.F.,1,Elected,10826,10065,10065,10065,10065,10065,10065,10065,10065,10065,0,0,0,0,0,0,10065
+Dublin,Dublin Fingal,Dr. Gerry Molloy,M,Renua Ireland,Others,R.I.,0,Excluded,2091,2139,2219,2326,2355,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,Dr. Marcus De Brun,M,Non-Party,Others,NON-P.,0,Excluded,627,633,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,Fergal O'Connell,M,Non-Party,Others,NON-P.,0,Excluded,51,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,James Reilly,M,Fine Gael,F.G.,F.G.,0,Excluded,4666,4699,4735,4767,4769,4955,5259,5549,5756,6215,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,Joe O'Brien,M,Green Party,G.P.,G.P.,0,Excluded,2783,2802,2964,3105,3125,3430,3758,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,Lorraine Clifford-Lee,F,Fianna Fáil,F.F.,F.F.,0,Excluded,3359,3788,3871,3937,3953,4339,4705,5099,5595,0,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,Louise O'Reilly,F,Sinn Féin,S.F.,S.F.,1,Elected,5228,5246,5314,5621,5719,5858,6193,6465,7911,8771,0,0,0,0,0,0,8771
+Dublin,Dublin Fingal,Roslyn Fuller,F,Non-Party,Others,NON-P.,0,Excluded,772,775,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,Terry Kelleher,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,2067,2076,2210,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Fingal,Tony Murphy,M,Non-Party,Others,NON-P.,0,Excluded,2503,2520,2679,2863,2896,3104,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Mid West,Anne-Marie McNally,F,Social Democrats,Others,S.D.,0,Excluded,2633,2730,2747,2766,2773,2804,2867,3048,3235,3679,4460,5320,0,0,0,0,0
+Dublin,Dublin Mid West,Christopher Healy,M,Direct Democracy,Others,D.D.I.,0,Excluded,167,179,180,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Mid West,Clare Leonard,F,Non-Party,Others,NON-P.,0,Excluded,358,379,383,398,403,422,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Mid West,Derek Keating,M,Fine Gael,F.G.,F.G.,0,Excluded,2337,2356,2549,2559,2603,2636,2653,2696,2725,3640,4179,0,0,0,0,0,0
+Dublin,Dublin Mid West,Dr. Haroon Khan,M,Non-Party,Others,NON-P.,0,Excluded,268,272,273,275,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Mid West,Eoin Ó Broin,M,Sinn Féin,S.F.,S.F.,1,Elected,9782,8621,8621,8621,8621,8621,8621,8621,8621,8621,8621,8621,0,0,0,0,8621
+Dublin,Dublin Mid West,Frances Fitzgerald,F,Fine Gael,F.G.,F.G.,1,Elected,9028,9028,8621,8621,8621,8621,8621,8621,8621,8621,8621,8621,0,0,0,0,8621
+Dublin,Dublin Mid West,Francis Timmons,M,Non-Party,Others,NON-P.,0,Excluded,1085,1195,1200,1210,1214,1233,1318,1422,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Mid West,Gino Kenny,M,Anti-Austerity Alliance,Others,AAA-PBP,1,Elected,4629,5257,5270,5321,5331,5397,5474,5791,6331,6542,7498,7911,0,0,0,0,7911
+Dublin,Dublin Mid West,Joanna Tuffy,F,The Labour Party,LAB.,LAB.,0,Excluded,2146,2175,2252,2259,2311,2342,2355,2475,2515,0,0,0,0,0,0,0,0
+Dublin,Dublin Mid West,John Curran,M,Fianna Fáil,F.F.,F.F.,1,Elected,6971,7054,7109,7114,7145,7180,7218,7274,7383,7685,8287,9497,0,0,0,0,9497
+Dublin,Dublin Mid West,Lorraine Hennessy,F,Workers Party,Others,W.P.,0,Excluded,502,553,555,568,570,584,613,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Mid West,Patrick Akpoveta,M,Non-Party,Others,NON-P.,0,Excluded,288,307,311,318,343,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Mid West,Paul Nicholas Gogarty,M,Non-Party,Others,NON-P.,0,Excluded,2522,2593,2623,2646,2658,2700,2741,2863,3164,3505,0,0,0,0,0,0,0
+Dublin,Dublin Mid West,Tom Kivlehan,M,Green Party,G.P.,G.P.,0,Excluded,388,405,410,413,417,430,443,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin North West,Andrew Keegan,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1434,1603,1865,2067,2525,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin North West,Bernie Hughes,F,Non-Party,Others,NON-P.,0,Excluded,1120,1182,1346,1455,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin North West,Caroline Conroy,F,Green Party,G.P.,G.P.,0,Excluded,915,1030,1120,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin North West,Cathleen Carney Boud,F,Sinn Féin,S.F.,S.F.,0,Excluded,2437,2507,2572,2642,2783,3325,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin North West,Cormac McKay,M,Direct Democracy,Others,D.D.I.,0,Excluded,158,188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin North West,Dessie Ellis,M,Sinn Féin,S.F.,S.F.,1,Elected,7571,7724,7847,7884,8358,8924,11638,9253,9253,0,0,0,0,0,0,0,9253
+Dublin,Dublin North West,Jimmy Dignam,M,Workers Party,Others,W.P.,0,Excluded,692,763,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin North West,John Lyons,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,2750,2956,3038,3339,3420,3739,3852,4281,0,0,0,0,0,0,0,0,0
+Dublin,Dublin North West,Noel Rock,M,Fine Gael,F.G.,F.G.,1,Elected,4642,4841,4878,5072,5102,5247,5287,5431,7563,0,0,0,0,0,0,0,7563
+Dublin,Dublin North West,Paul Mcauliffe,M,Fianna Fáil,F.F.,F.F.,0,Excluded,4750,4962,5018,5124,5207,5401,5514,5941,6907,0,0,0,0,0,0,0,0
+Dublin,Dublin North West,Róisín Shortall,F,Social Democrats,Others,S.D.,1,Elected,10540,9253,9253,9253,9253,9253,9253,9253,9253,0,0,0,0,0,0,0,9253
+Dublin,Dublin Rathdown,Alan Daveron,M,Renua Ireland,Others,R.I.,0,Excluded,1055,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Rathdown,Alan Shatter,M,Fine Gael,F.G.,F.G.,0,Excluded,5905,5979,6195,6268,7745,8444,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Rathdown,Alex White,M,The Labour Party,LAB.,LAB.,0,Excluded,4048,4080,4258,4436,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Rathdown,Catherine Martin,F,Green Party,G.P.,G.P.,1,Elected,4122,4314,4812,6105,7255,9421,0,0,0,0,0,0,0,0,0,0,9421
+Dublin,Dublin Rathdown,Josepha Madigan,F,Fine Gael,F.G.,F.G.,1,Elected,6668,6835,7180,7290,8579,9488,0,0,0,0,0,0,0,0,0,0,9488
+Dublin,Dublin Rathdown,Mary White,F,Fianna Fáil,F.F.,F.F.,0,Excluded,4220,4325,4761,5165,5463,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Rathdown,Peter Mathews,M,Non-Party,Others,NON-P.,0,Excluded,2021,2241,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin Rathdown,Shane Ross,M,Non-Party,Others,NON-P.,1,Elected,10202,10411,10411,10411,10411,10411,0,0,0,0,0,0,0,0,0,0,10411
+Dublin,Dublin Rathdown,Sorcha Nic Cormaic,F,Sinn Féin,S.F.,S.F.,0,Excluded,2858,2896,3076,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South Central,Aengus Ó Snodaigh,M,Sinn Féin,S.F.,S.F.,1,Elected,6639,6690,6715,6734,6927,7061,9566,8572,8572,8572,8572,0,0,0,0,0,8572
+Dublin,Dublin South Central,Bríd Smith,F,Anti-Austerity Alliance,Others,AAA-PBP,1,Elected,4374,4476,4527,4729,5193,5853,6208,6643,7410,7836,7879,0,0,0,0,0,7879
+Dublin,Dublin South Central,Catherine Ardagh,F,Fianna Fáil,F.F.,F.F.,0,Excluded,5441,5508,5698,5817,6064,6439,6556,6617,7116,7841,7844,0,0,0,0,0,0
+Dublin,Dublin South Central,Catherine Byrne,F,Fine Gael,F.G.,F.G.,1,Elected,6130,6154,6317,6516,6679,7037,7090,7111,9723,8572,8572,0,0,0,0,0,8572
+Dublin,Dublin South Central,Eric Byrne,M,The Labour Party,LAB.,LAB.,0,Excluded,3297,3314,3372,3645,3822,4481,4531,4558,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South Central,Joan Collins,F,Independents 4 Change,Others,I.4.C,1,Elected,6195,6303,6374,6461,7034,7666,8168,8618,8618,8618,8572,0,0,0,0,0,8572
+Dublin,Dublin South Central,Liam Coyne,M,Social Democrats,Others,S.D.,0,Excluded,2434,2486,2595,2998,3256,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South Central,Máire Devine,F,Sinn Féin,S.F.,S.F.,0,Excluded,3332,3363,3389,3423,3531,3686,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South Central,Michael Gargan,M,Renua Ireland,Others,R.I.,0,Excluded,893,943,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South Central,Neville Bradley,M,Direct Democracy,Others,D.D.I.,0,Excluded,407,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South Central,Oisín Ó Halmhain,M,Green Party,G.P.,G.P.,0,Excluded,1410,1431,1514,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South Central,Paul Hand,M,Non-Party,Others,NON-P.,0,Excluded,2011,2100,2222,2358,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South Central,Richard Murray,M,Non-Party,Others,NON-P.,0,Excluded,294,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Anne-Marie Dermody,F,Fine Gael,F.G.,F.G.,0,Excluded,6463,6467,6477,6496,6779,6889,6948,7087,7316,7337,7793,7835,7868,7911,9079,9503,0
+Dublin,Dublin South West,Colm Brophy,M,Fine Gael,F.G.,F.G.,1,Elected,7195,7202,7213,7235,7576,7660,7758,8028,8193,8213,8655,8695,8724,8764,10126,10639,10639
+Dublin,Dublin South West,Declan Burke,M,Non-Party,Others,NON-P.,0,Excluded,515,525,561,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Deirdre O'Donovan,F,Non-Party,Others,NON-P.,0,Excluded,2197,2220,2261,2308,2326,2411,2534,2571,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Eamonn Maloney,M,Non-Party,Others,NON-P.,0,Excluded,1627,1628,1638,1671,1722,1748,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Francis Noel Duffy,M,Green Party,G.P.,G.P.,0,Excluded,1297,1303,1307,1332,1337,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Frank O'Gorman,M,Non-Party,Others,NON-P.,0,Excluded,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Joan Summerville-Molloy,F,Non-Party,Others,NON-P.,0,Excluded,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,John Lahart,M,Fianna Fáil,F.F.,F.F.,1,Elected,9647,9655,9678,9725,9772,9892,10045,10160,10506,10565,11402,11402,11402,11212,11212,11212,11212
+Dublin,Dublin South West,Karen Warren,F,Fine Gael,F.G.,F.G.,0,Excluded,1088,1090,1096,1105,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Katherine Zappone,F,Non-Party,Others,NON-P.,1,Elected,4463,4486,4515,4604,4660,4913,5131,5262,5731,5797,6129,6294,6724,6753,7542,9655,9655
+Dublin,Dublin South West,Kieran Adam Quigley,M,Non-Party,Others,NON-P.,0,Excluded,317,329,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Mick Duff,M,The Labour Party,LAB.,LAB.,0,Excluded,1743,1743,1749,1776,1871,1947,2120,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Pamela Kearns,F,The Labour Party,LAB.,LAB.,0,Excluded,2635,2640,2646,2658,2700,2883,2936,3796,3902,3933,4099,4116,4163,4182,0,0,0
+Dublin,Dublin South West,Paul Murphy,M,Anti-Austerity Alliance,Others,AAA-PBP,1,Elected,9005,9020,9047,9194,9247,9316,9626,9758,10054,10366,10678,13528,11212,11212,11212,11212,11212
+Dublin,Dublin South West,Peter Fitzpatrick,M,Fine Gael,F.G.,F.G.,0,Excluded,2812,2829,2866,3064,3094,3210,3353,3433,3742,3799,4163,4332,4632,4677,4916,0,0
+Dublin,Dublin South West,Ronan McMahon,M,Renua Ireland,Others,R.I.,0,Excluded,2906,2912,2952,3003,3026,3100,3208,3258,3518,3548,0,0,0,0,0,0,0
+Dublin,Dublin South West,Sandra Fay,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,3241,3244,3249,3312,3324,3374,3439,3492,3593,3725,3832,0,0,0,0,0,0
+Dublin,Dublin South West,Sarah Holland,F,Sinn Féin,S.F.,S.F.,0,Excluded,2616,2621,2630,2667,2685,2721,2764,2792,2884,0,0,0,0,0,0,0,0
+Dublin,Dublin South West,Seán Crowe,M,Sinn Féin,S.F.,S.F.,1,Elected,6974,6978,6983,7054,7070,7098,7230,7362,7413,9502,9642,9959,11068,11082,11245,11245,11245
+Dublin,Dublin South West,Stephen Sinclair,M,Direct Democracy,Others,D.D.I.,0,Excluded,359,375,385,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin West,Catherine Noone,F,Fine Gael,F.G.,F.G.,0,Excluded,1074,1125,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin West,David McGuinness,M,Non-Party,Others,NON-P.,0,Excluded,2991,3081,3112,3405,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin West,Dermot Casey,M,Non-Party,Others,NON-P.,0,Excluded,225,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin West,Jack Chambers,M,Fianna Fáil,F.F.,F.F.,1,Elected,6917,7148,7236,7330,8315,0,0,0,0,0,0,0,0,0,0,0,8315
+Dublin,Dublin West,Jo O'Brien,F,Renua Ireland,Others,R.I.,0,Excluded,677,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin West,Joan Burton,F,The Labour Party,LAB.,LAB.,1,Elected,6445,6508,6690,6769,8009,0,0,0,0,0,0,0,0,0,0,0,8009
+Dublin,Dublin West,Leo Varadkar,M,Fine Gael,F.G.,F.G.,1,Elected,8247,8328,9021,9021,9021,0,0,0,0,0,0,0,0,0,0,0,9021
+Dublin,Dublin West,Paul Donnelly,M,Sinn Féin,S.F.,S.F.,0,Excluded,6034,6073,6093,6188,7091,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin West,Roderic O'Gorman,M,Green Party,G.P.,G.P.,0,Excluded,1730,1839,1864,2098,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dublin West,Ruth Coppinger,F,Anti-Austerity Alliance,Others,AAA-PBP,1,Elected,6520,6626,6668,7011,8548,0,0,0,0,0,0,0,0,0,0,0,8548
+Dublin,Dublin West,Tj Clare,M,Non-Party,Others,NON-P.,0,Excluded,1092,1191,1214,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dún Laoghaire,Carol Hunt,F,Non-Party,Others,NON-P.,0,Excluded,3152,3410,3610,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dún Laoghaire,Carrie Smyth,F,The Labour Party,LAB.,LAB.,0,Excluded,5192,5296,5385,5739,6895,7165,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dún Laoghaire,Cormac Devlin,M,Fianna Fáil,F.F.,F.F.,0,Excluded,4665,4877,5055,5265,5564,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dún Laoghaire,Frank Cronin,M,Renua Ireland,Others,R.I.,0,Excluded,1812,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dún Laoghaire,Maria Bailey,F,Fine Gael,F.G.,F.G.,1,Elected,10489,10882,10934,11270,11854,12422,15198,0,0,0,0,0,0,0,0,0,15198
+Dublin,Dún Laoghaire,Mary Hanafin,F,Fianna Fáil,F.F.,F.F.,0,Excluded,6478,6709,6792,6986,7290,10221,10969,0,0,0,0,0,0,0,0,0,0
+Dublin,Dún Laoghaire,Mary Mitchell O'Connor,F,Fine Gael,F.G.,F.G.,1,Elected,10817,11088,11130,11433,11967,12393,14941,0,0,0,0,0,0,0,0,0,14941
+Dublin,Dún Laoghaire,Ossian Smyth,M,Green Party,G.P.,G.P.,0,Excluded,3478,3677,3833,4750,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dún Laoghaire,Raymond Whitehead,M,Direct Democracy,Others,D.D.I.,0,Excluded,213,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dublin,Dún Laoghaire,Richard Boyd Barrett,M,Anti-Austerity Alliance,Others,AAA-PBP,1,Elected,9775,10008,12215,13287,14761,15718,15718,0,0,0,0,0,0,0,0,0,15718
+Dublin,Dún Laoghaire,Shane O'Brien,M,Sinn Féin,S.F.,S.F.,0,Excluded,3167,3209,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway East,Aengus Melia,M,Direct Democracy,Others,D.D.I.,0,Excluded,489,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway East,Anne Rabbitte,F,Fianna Fáil,F.F.,F.F.,1,Elected,6928,6995,7566,7966,8791,12255,12255,0,0,0,0,0,0,0,0,0,12255
+Connacht,Galway East,Annemarie Roche,F,Sinn Féin,S.F.,S.F.,0,Excluded,2683,2966,3159,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway East,Ciarán Cannon,M,Fine Gael,F.G.,F.G.,1,Elected,7123,7220,7650,7812,9519,9920,10157,0,0,0,0,0,0,0,0,0,10157
+Connacht,Galway East,Colm Keaveney,M,Fianna Fáil,F.F.,F.F.,0,Excluded,5436,5511,5823,6127,6700,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway East,Lorraine Higgins,F,The Labour Party,LAB.,LAB.,0,Excluded,4531,4792,5080,5470,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway East,Máiréad Ní Chróinín,F,Green Party,G.P.,G.P.,0,Excluded,769,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway East,Michael Fahy,M,Non-Party,Others,NON-P.,0,Excluded,2358,2418,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway East,Paul Connaughton,M,Fine Gael,F.G.,F.G.,0,Excluded,6474,6536,6689,6812,7866,8361,8853,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway East,Seán Canney,M,Non-Party,Others,NON-P.,1,Elected,8447,8713,9072,10196,10969,12707,11310,0,0,0,0,0,0,0,0,0,11310
+Connacht,Galway West,Catherine Martina Ann Connolly,F,Non-Party,Others,NON-P.,1,Elected,4877,4909,4982,5178,5325,5450,5818,6330,6461,7123,7138,8877,9842,10239,0,0,10239
+Connacht,Galway West,Derek Nolan,M,The Labour Party,LAB.,LAB.,0,Excluded,3220,3233,3261,3300,3332,3380,3624,3737,3787,0,0,0,0,0,0,0,0
+Connacht,Galway West,Dr. Fidelma Healy Eames,F,Non-Party,Others,NON-P.,0,Excluded,1394,1445,1594,1620,1657,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,Éamon Ó Cuív,M,Fianna Fáil,F.F.,F.F.,1,Elected,9539,9574,9679,9701,9763,10022,10079,10175,11103,11103,10712,10712,10712,10712,0,0,10712
+Connacht,Galway West,Hildegarde Naughton,F,Fine Gael,F.G.,F.G.,1,Elected,4567,4582,4676,4691,4759,4964,5097,5175,5298,6083,6094,6626,7024,9129,0,0,9129
+Connacht,Galway West,James Charity,M,Non-Party,Others,NON-P.,0,Excluded,1171,1188,1227,1267,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,John Connolly,M,Fianna Fáil,F.F.,F.F.,0,Excluded,3885,3901,3951,3973,4019,4160,4203,4351,4873,5059,5304,5614,0,0,0,0,0
+Connacht,Galway West,John O Mahony,M,Fine Gael,F.G.,F.G.,0,Excluded,4734,4744,4788,4795,4859,4915,4965,4996,5222,5551,5591,5852,6122,0,0,0,0
+Connacht,Galway West,Mary Hoade,F,Fianna Fáil,F.F.,F.F.,0,Excluded,2205,2213,2248,2254,2549,2636,2644,2673,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,Mike Cubbard,M,Non-Party,Others,NON-P.,0,Excluded,2122,2146,2166,2309,2390,2436,2533,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,Niall Ó Tuathail,M,Social Democrats,Others,S.D.,0,Excluded,3455,3488,3566,3734,3803,3850,4344,4674,4725,5269,5278,0,0,0,0,0,0
+Connacht,Galway West,Nicola Daveron,F,Renua Ireland,Others,R.I.,0,Excluded,994,1025,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,Noel Grealish,M,Non-Party,Others,NON-P.,1,Elected,7187,7208,7308,7359,7522,7945,8020,8461,8830,9136,9186,9711,11073,11073,0,0,11073
+Connacht,Galway West,Patrick Feeney,M,Non-Party,Others,NON-P.,0,Excluded,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,Ruairí O'Neill,M,Direct Democracy,Others,D.D.I.,0,Excluded,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,Séamus Sheridan,M,Green Party,G.P.,G.P.,0,Excluded,1588,1617,1667,1755,1779,1813,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,Seán Kyne,M,Fine Gael,F.G.,F.G.,1,Elected,6136,6148,6232,6245,6292,6355,6444,6506,6587,7201,7209,7656,8171,10590,0,0,10590
+Connacht,Galway West,Tommy Holohan,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1017,1047,1071,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,Tommy Roddy,M,Non-Party,Others,NON-P.,0,Excluded,251,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Galway West,Trevor Ó Clochartaigh,M,Sinn Féin,S.F.,S.F.,0,Excluded,5755,5788,5815,6017,6108,6162,6261,6661,6721,6833,6846,7468,7911,8077,0,0,0
+Munster,Kerry,Arthur J. Spring,M,The Labour Party,LAB.,LAB.,0,Excluded,4813,5011,5036,5067,5093,5281,5356,5601,5877,6139,0,0,0,0,0,0,0
+Munster,Kerry,Brendan Griffin,M,Fine Gael,F.G.,F.G.,1,Elected,9674,10381,10520,10608,10661,10872,10999,11223,11396,12545,14050,0,0,0,0,0,14050
+Munster,Kerry,Brian Finucane,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,981,1046,1058,1129,1161,1169,1261,1429,0,0,0,0,0,0,0,0,0
+Munster,Kerry,Danny Healy-Rae,M,Non-Party,Others,NON-P.,1,Elected,9991,13826,13213,13213,13213,13213,13213,13213,13213,13213,13213,0,0,0,0,0,13213
+Munster,Kerry,Donal Corcoran,M,Renua Ireland,Others,R.I.,0,Excluded,716,769,780,801,886,900,0,0,0,0,0,0,0,0,0,0,0
+Munster,Kerry,Grace O'Donnell,F,Fine Gael,F.G.,F.G.,0,Excluded,776,817,827,836,854,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Kerry,Henry Gaynor,M,Non-Party,Others,NON-P.,0,Excluded,147,155,158,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Kerry,Jimmy Deenihan,M,Fine Gael,F.G.,F.G.,0,Excluded,6489,6827,6872,6901,6944,7168,7257,7326,7630,7849,9779,0,0,0,0,0,0
+Munster,Kerry,John Brassil,M,Fianna Fáil,F.F.,F.F.,1,Elected,8156,8642,8719,8764,8957,9005,9137,9242,9495,11955,12792,0,0,0,0,0,12792
+Munster,Kerry,Kevin Murphy,M,Non-Party,Others,NON-P.,0,Excluded,464,491,505,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Kerry,Martin Ferris,M,Sinn Féin,S.F.,S.F.,1,Elected,9458,10098,10214,10321,10364,10418,10490,10583,11722,12184,12964,0,0,0,0,0,12964
+Munster,Kerry,Mary Elizabeth Fitzgibbon,F,Non-Party,Others,NON-P.,0,Excluded,635,690,707,752,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Kerry,Michael Fitzgerald,M,Green Party,G.P.,G.P.,0,Excluded,1011,1050,1059,1085,1123,1135,1222,0,0,0,0,0,0,0,0,0,0
+Munster,Kerry,Michael Healy-Rae,M,Non-Party,Others,NON-P.,1,Elected,20378,13213,13213,13213,13213,13213,13213,13213,13213,13213,13213,0,0,0,0,0,13213
+Munster,Kerry,Michael Pixie O'Gorman,M,Non-Party,Others,NON-P.,0,Excluded,1236,1364,1380,1487,1529,1536,1589,1674,0,0,0,0,0,0,0,0,0
+Munster,Kerry,Norma Moriarty,F,Fianna Fáil,F.F.,F.F.,0,Excluded,4348,4893,5012,5032,5081,5114,5172,5252,5392,0,0,0,0,0,0,0,0
+Leinster,Kildare North,Anthony Lawlor,M,Fine Gael,F.G.,F.G.,0,Excluded,5406,5490,5544,5572,5714,5767,6046,6213,7402,0,0,0,0,0,0,0,0
+Leinster,Kildare North,Ashling Merriman,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,781,873,943,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare North,Bernard Durkan,M,Fine Gael,F.G.,F.G.,1,Elected,6147,6268,6302,6322,6472,6534,6740,6974,8890,0,0,0,0,0,0,0,8890
+Leinster,Kildare North,Brendan Young,M,Non-Party,Others,NON-P.,0,Excluded,1200,1323,1467,1737,1858,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare North,Catherine Murphy,F,Social Democrats,Others,S.D.,1,Elected,11108,9788,9788,9788,9788,9788,9788,9788,9788,0,0,0,0,0,0,0,9788
+Leinster,Kildare North,Elizabeth O'Sullivan,F,Non-Party,Others,NON-P.,0,Excluded,99,119,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare North,Emmet Stagg,M,The Labour Party,LAB.,LAB.,0,Excluded,4087,4288,4349,4408,4488,4632,5181,5775,0,0,0,0,0,0,0,0,0
+Leinster,Kildare North,Frank O'Rourke,M,Fianna Fáil,F.F.,F.F.,1,Elected,6341,6486,6528,6562,6711,6879,7138,7684,8479,0,0,0,0,0,0,0,8479
+Leinster,Kildare North,Ger Dunne,M,Non-Party,Others,NON-P.,0,Excluded,249,261,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare North,James Lawless,M,Fianna Fáil,F.F.,F.F.,1,Elected,7461,7592,7696,7737,7919,8003,8256,8850,9444,0,0,0,0,0,0,0,9444
+Leinster,Kildare North,Maebh Ní Fhallúin,F,Green Party,G.P.,G.P.,0,Excluded,1485,1649,1715,1804,2020,2419,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare North,Michael Beirne,M,Non-Party,Others,NON-P.,0,Excluded,372,389,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare North,Réada Cronin,F,Sinn Féin,S.F.,S.F.,0,Excluded,3205,3323,3390,3621,3708,4146,4497,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare North,Shane Fitzgerald,M,Renua Ireland,Others,R.I.,0,Excluded,994,1086,1154,1236,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare South,Declan Crowe,M,Non-Party,Others,NON-P.,0,Excluded,2143,2609,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare South,Fiona McLoughlin Healy,F,Fine Gael,F.G.,F.G.,0,Excluded,3250,3416,3554,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare South,Fiona O'Loughlin,F,Fianna Fáil,F.F.,F.F.,1,Elected,6906,7073,7373,7905,8149,8974,0,0,0,0,0,0,0,0,0,0,8974
+Leinster,Kildare South,Mark Wall,M,The Labour Party,LAB.,LAB.,0,Excluded,4277,4504,4764,5154,5806,6864,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare South,Martin Heydon,M,Fine Gael,F.G.,F.G.,1,Elected,7851,8048,8297,10321,9197,9197,0,0,0,0,0,0,0,0,0,0,9197
+Leinster,Kildare South,Mary Kennedy,F,Renua Ireland,Others,R.I.,0,Excluded,787,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare South,Patricia Ryan,F,Sinn Féin,S.F.,S.F.,0,Excluded,4267,4459,5294,5434,5485,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Kildare South,Seán Ó Fearghaíl,M,Fianna Fáil,F.F.,F.F.,1,Elected,6469,6583,6891,7166,7343,8220,0,0,0,0,0,0,0,0,0,0,8220
+Leinster,Kildare South,Suzanne McEneaney,F,Green Party,G.P.,G.P.,0,Excluded,836,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Laois,Brian Stanley,M,Sinn Féin,S.F.,S.F.,1,Elected,8242,9562,10092,0,0,0,0,0,0,0,0,0,0,0,0,0,10092
+Leinster,Laois,Charlie Flanagan,M,Fine Gael,F.G.,F.G.,1,Elected,8370,9298,9525,0,0,0,0,0,0,0,0,0,0,0,0,0,9525
+Leinster,Laois,John Whelan,M,The Labour Party,LAB.,LAB.,0,Excluded,2856,3394,3896,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Laois,Seán Fleming,M,Fianna Fáil,F.F.,F.F.,1,Elected,13626,9718,9718,0,0,0,0,0,0,0,0,0,0,0,0,0,9718
+Leinster,Laois,Sinead Moore,F,Green Party,G.P.,G.P.,0,Excluded,1541,2161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Laois,Thomasina Connell,F,Fine Gael,F.G.,F.G.,0,Excluded,4233,4735,5140,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick City,Cian Prendiville,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,4584,5244,5496,6724,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick City,Denis Riordan,M,Non-Party,Others,NON-P.,0,Excluded,78,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick City,Des Hayes,M,Non-Party,Others,NON-P.,0,Excluded,254,314,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick City,James Gaffney,M,Green Party,G.P.,G.P.,0,Excluded,964,1081,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick City,Jan O'Sullivan,F,The Labour Party,LAB.,LAB.,1,Elected,5227,5838,6166,7001,7722,8187,0,0,0,0,0,0,0,0,0,0,8187
+Munster,Limerick City,Kieran O'Donnell,M,Fine Gael,F.G.,F.G.,0,Excluded,6047,6545,6830,7177,7512,7849,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick City,Maurice Quinlivan,M,Sinn Féin,S.F.,S.F.,1,Elected,5894,6527,6651,7025,10517,9353,0,0,0,0,0,0,0,0,0,0,9353
+Munster,Limerick City,Michael Noonan,M,Fine Gael,F.G.,F.G.,1,Elected,7294,7909,8221,8591,9018,9311,0,0,0,0,0,0,0,0,0,0,9311
+Munster,Limerick City,Nora Bennis,F,Catholic Democrats,Others,C.D.,0,Excluded,673,823,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick City,Sarah Jane Hennelly,F,Social Democrats,Others,S.D.,0,Excluded,2747,3039,3620,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick City,Willie O'Dea,M,Fianna Fáil,F.F.,F.F.,1,Elected,12999,9353,9353,9353,9353,9353,0,0,0,0,0,0,0,0,0,0,9353
+Munster,Limerick County,Alexander Storey-Cosgrave,M,Green Party,G.P.,G.P.,0,Excluded,311,321,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick County,Emmett O'Brien,M,Non-Party,Others,NON-P.,0,Excluded,5432,5737,5879,6676,7569,9481,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick County,James Heffernan,M,Social Democrats,Others,S.D.,0,Excluded,3270,3463,3698,4319,5662,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick County,John O'Gorman,M,Non-Party,Others,NON-P.,0,Excluded,207,219,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick County,Mark Keogh,M,Direct Democracy,Others,D.D.I.,0,Excluded,222,231,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick County,Niall Collins,M,Fianna Fáil,F.F.,F.F.,1,Elected,12276,11104,11104,11104,11104,11104,0,0,0,0,0,0,0,0,0,0,11104
+Munster,Limerick County,Patrick O'Donovan,M,Fine Gael,F.G.,F.G.,1,Elected,8479,8637,8712,9183,9498,10291,0,0,0,0,0,0,0,0,0,0,10291
+Munster,Limerick County,Richard O'Donoghue,M,Non-Party,Others,NON-P.,0,Excluded,2855,3021,3118,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick County,Seamus Browne,M,Sinn Féin,S.F.,S.F.,0,Excluded,3347,3465,3550,3783,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Limerick County,Tom Neville,M,Fine Gael,F.G.,F.G.,1,Elected,8013,8214,8291,8874,9217,10369,0,0,0,0,0,0,0,0,0,0,10369
+Leinster,Longford Westmeath,Barbara Smyth,F,Non-Party,Others,NON-P.,0,Excluded,296,299,308,312,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,Brian Fagan,M,Non-Party,Others,NON-P.,0,Excluded,897,920,934,951,964,1022,1052,0,0,0,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,Connie Gerety-Quinn,F,Fianna Fáil,F.F.,F.F.,0,Excluded,3943,4164,4168,4177,4187,4196,4267,4298,4371,4704,4765,5918,0,0,0,0,0
+Leinster,Longford Westmeath,Dominic Parker,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,506,510,532,549,591,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,Donal Jackson,M,Non-Party,Others,NON-P.,0,Excluded,51,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,Gabrielle McFadden,F,Fine Gael,F.G.,F.G.,0,Excluded,2836,2844,2848,2858,2869,2874,2907,2917,2993,3027,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,James Bannon,M,Fine Gael,F.G.,F.G.,0,Excluded,4639,4649,4653,4655,4659,4662,4693,4701,4765,4974,5425,5944,7071,7081,0,0,0
+Leinster,Longford Westmeath,James Miller,M,Non-Party,Others,NON-P.,0,Excluded,208,211,230,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,James Morgan,M,Non-Party,Others,NON-P.,0,Excluded,3329,3344,3356,3367,3423,3443,3492,3531,3657,4316,4340,0,0,0,0,0,0
+Leinster,Longford Westmeath,Kevin 'Boxer' Moran,M,Non-Party,Others,NON-P.,1,Elected,7586,7660,7674,7716,7735,7840,7962,8136,8343,8488,9246,10109,11122,11050,11050,0,11050
+Leinster,Longford Westmeath,Mae Sexton,F,Non-Party,Others,NON-P.,0,Excluded,1646,1654,1657,1662,1729,1755,1781,1822,1895,0,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,Manchán Magan,M,Green Party,G.P.,G.P.,0,Excluded,1102,1109,1120,1132,1155,1233,1259,1393,0,0,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,Noel McKervey,M,Catholic Democrats,Others,C.D.,0,Excluded,654,658,664,672,676,686,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,Paul Hogan,M,Sinn Féin,S.F.,S.F.,0,Excluded,5270,5306,5340,5369,5401,5601,5627,5778,5903,6032,6103,6636,7366,7386,7824,0,0
+Leinster,Longford Westmeath,Peter Burke,M,Fine Gael,F.G.,F.G.,1,Elected,5681,5749,5755,5772,5777,5785,5898,6072,6244,6289,7451,7633,7880,7890,11385,0,11385
+Leinster,Longford Westmeath,Robert Troy,M,Fianna Fáil,F.F.,F.F.,1,Elected,11653,11050,11050,11050,11050,11050,11050,11050,11050,11050,11050,11050,11050,11050,11050,0,11050
+Leinster,Longford Westmeath,Stephanie Healy,F,Direct Democracy,Others,D.D.I.,0,Excluded,132,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Longford Westmeath,Willie Penrose,M,The Labour Party,LAB.,LAB.,1,Elected,4817,4936,4943,4975,4981,5010,5034,5180,5498,5637,6036,6355,7055,7087,8505,0,8505
+Leinster,Louth,Anthony Connor,M,Direct Democracy,Others,D.D.I.,0,Excluded,676,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Louth,David Bradley,M,Non-Party,Others,NON-P.,0,Excluded,319,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Louth,Declan Breathnach,M,Fianna Fáil,F.F.,F.F.,1,Elected,9099,9146,9220,9609,9931,12192,11255,11255,11255,11255,11255,0,0,0,0,0,11255
+Leinster,Louth,Emma Coffey,F,Fianna Fáil,F.F.,F.F.,0,Excluded,3422,3442,3496,3622,3819,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Louth,Fergus O'Dowd,M,Fine Gael,F.G.,F.G.,1,Elected,6814,6838,6943,7271,7418,7586,7680,8115,8827,9124,9256,0,0,0,0,0,9256
+Leinster,Louth,Garrett Weldon,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,3462,3644,3690,3816,4468,4586,4675,5588,6290,0,0,0,0,0,0,0,0
+Leinster,Louth,Ged Nash,M,The Labour Party,LAB.,LAB.,0,Excluded,4945,4976,5293,5472,5593,5760,5895,6715,7888,8454,8746,0,0,0,0,0,0
+Leinster,Louth,Gerry Adams,M,Sinn Féin,S.F.,S.F.,1,Elected,10661,10774,10826,10908,11096,11278,11278,11278,11278,11278,11278,0,0,0,0,0,11278
+Leinster,Louth,Imelda Munster,F,Sinn Féin,S.F.,S.F.,1,Elected,8829,9061,9103,9224,9356,9563,9712,9995,10992,13029,11255,0,0,0,0,0,11255
+Leinster,Louth,Kevin Callan,M,Non-Party,Others,NON-P.,0,Excluded,3541,3683,3701,4030,4388,4592,4779,5224,0,0,0,0,0,0,0,0,0
+Leinster,Louth,Maeve Yore,F,Non-Party,Others,NON-P.,0,Excluded,2746,2814,2953,3138,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Louth,Mark Dearey,M,Green Party,G.P.,G.P.,0,Excluded,3187,3225,3363,3530,4099,4327,4517,0,0,0,0,0,0,0,0,0,0
+Leinster,Louth,Mary Moran,F,The Labour Party,LAB.,LAB.,0,Excluded,1198,1211,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Louth,Michael O'Dowd,M,Renua Ireland,Others,R.I.,0,Excluded,2095,2219,2242,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Louth,Patrick Greene,M,Direct Democracy,Others,D.D.I.,0,Excluded,127,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Louth,Peter Fitzpatrick,M,Fine Gael,F.G.,F.G.,0,Excluded,6408,6417,6591,6693,6969,7113,7206,7977,8231,8931,9132,0,0,0,0,0,0
+Connacht,Mayo,Dara Calleary,M,Fianna Fáil,F.F.,F.F.,1,Elected,9402,9417,9419,9432,9441,9450,9495,9933,10425,12150,0,0,0,0,0,0,12150
+Connacht,Mayo,Enda Kenny,M,Fine Gael,F.G.,F.G.,1,Elected,13318,12730,12730,12730,12730,12730,12730,12730,12730,12730,0,0,0,0,0,0,12730
+Connacht,Mayo,George O'Malley,M,Non-Party,Others,NON-P.,0,Excluded,262,263,263,276,284,301,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Mayo,Gerry O'Boyle,M,Non-Party,Others,NON-P.,0,Excluded,126,127,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Mayo,Jerry Cowley,M,Non-Party,Others,NON-P.,0,Excluded,3479,3495,3504,3513,3523,3553,3668,4375,0,0,0,0,0,0,0,0,0
+Connacht,Mayo,Lisa Chambers,F,Fianna Fáil,F.F.,F.F.,1,Elected,8231,8265,8266,8280,8296,8307,8354,8718,9503,11686,0,0,0,0,0,0,11686
+Connacht,Mayo,Margaret (Mags) Sheehan,F,Green Party,G.P.,G.P.,0,Excluded,629,631,632,636,651,665,680,0,0,0,0,0,0,0,0,0,0
+Connacht,Mayo,Michael Patrick Farrington,M,Renua Ireland,Others,R.I.,0,Excluded,1574,1579,1582,1590,1600,1608,1659,0,0,0,0,0,0,0,0,0,0
+Connacht,Mayo,Michael Ring,M,Fine Gael,F.G.,F.G.,1,Elected,11275,11533,11534,11545,11558,11567,11613,12034,13149,13149,0,0,0,0,0,0,13149
+Connacht,Mayo,Michelle Mulherin,F,Fine Gael,F.G.,F.G.,0,Excluded,7841,8084,8088,8094,8123,8131,8182,8496,8900,9593,0,0,0,0,0,0,0
+Connacht,Mayo,Mohammad Kamal Uddin,M,Non-Party,Others,NON-P.,0,Excluded,144,146,149,150,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Mayo,Peter Jordan,M,Non-Party,Others,NON-P.,0,Excluded,176,176,181,189,192,197,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Mayo,Rose Conway-Walsh,F,Sinn Féin,S.F.,S.F.,0,Excluded,6414,6423,6423,6445,6453,6485,6548,7022,7853,0,0,0,0,0,0,0,0
+Connacht,Mayo,Sean Forkin,M,Non-Party,Others,NON-P.,0,Excluded,42,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Mayo,Stephen Manning,M,Non-Party,Others,NON-P.,0,Excluded,157,158,159,166,174,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Mayo,Tom Moran,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,576,577,582,587,597,626,664,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath East,Aisling O'Neill,F,Social Democrats,Others,S.D.,0,Excluded,1715,1740,1801,1885,2148,2300,2463,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath East,Ben Gilroy,M,Direct Democracy,Others,D.D.I.,0,Excluded,794,809,841,876,899,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath East,Darren O'Rourke,M,Sinn Féin,S.F.,S.F.,0,Excluded,5780,5860,5970,6017,6096,6341,6637,7236,8556,0,0,0,0,0,0,0,0
+Leinster,Meath East,Dominic Hannigan,M,The Labour Party,LAB.,LAB.,0,Excluded,2270,2307,2325,2350,2494,2525,2680,3084,0,0,0,0,0,0,0,0,0
+Leinster,Meath East,Helen McEntee,F,Fine Gael,F.G.,F.G.,1,Elected,7556,7656,7671,7749,7841,7887,8237,8435,9958,0,0,0,0,0,0,0,9958
+Leinster,Meath East,Joseph Bonner,M,Non-Party,Others,NON-P.,0,Excluded,2482,2527,2545,2600,2665,2857,3215,3825,0,0,0,0,0,0,0,0,0
+Leinster,Meath East,Regina Doherty,F,Fine Gael,F.G.,F.G.,1,Elected,6830,6889,6899,6979,7064,7109,7247,7477,9612,0,0,0,0,0,0,0,9612
+Leinster,Meath East,Sarah Tyrrell,F,Renua Ireland,Others,R.I.,0,Excluded,523,554,563,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath East,Seamus McDonagh,M,Workers Party,Others,W.P.,0,Excluded,326,335,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath East,Seán Ó Buachalla,M,Green Party,G.P.,G.P.,0,Excluded,766,784,801,853,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath East,Sharon Keogan,F,Non-Party,Others,NON-P.,0,Excluded,1528,1579,1600,1663,1709,1805,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath East,Thomas Byrne,M,Fianna Fáil,F.F.,F.F.,1,Elected,10818,10348,10348,10348,10348,10348,10348,10348,10348,0,0,0,0,0,0,0,10348
+Leinster,Meath West,Alan Lawes,M,Direct Democracy,Others,D.D.I.,0,Excluded,1279,1310,1380,1440,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath West,Damien English,M,Fine Gael,F.G.,F.G.,1,Elected,8123,8333,8376,8785,8880,10371,0,0,0,0,0,0,0,0,0,0,10371
+Leinster,Meath West,John Malone,M,Non-Party,Others,NON-P.,0,Excluded,439,486,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath West,Peadar Tóibín,M,Sinn Féin,S.F.,S.F.,1,Elected,9442,9713,9713,9713,9713,9713,0,0,0,0,0,0,0,0,0,0,9713
+Leinster,Meath West,Ray Butler,M,Fine Gael,F.G.,F.G.,0,Excluded,4432,4519,4552,4853,4904,5841,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath West,Séamus McMenamin,M,Green Party,G.P.,G.P.,0,Excluded,1421,1519,1587,1807,2178,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath West,Shane Cassells,M,Fianna Fáil,F.F.,F.F.,1,Elected,10585,9652,9652,9652,9652,9652,0,0,0,0,0,0,0,0,0,0,9652
+Leinster,Meath West,Tracy McElhinney,F,The Labour Party,LAB.,LAB.,0,Excluded,1166,1229,1241,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Meath West,Trevor Golden,M,Non-Party,Others,NON-P.,0,Excluded,1718,1844,1984,2137,2616,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Offaly,Barry Cowen,M,Fianna Fáil,F.F.,F.F.,1,Elected,12366,11009,11009,11009,11009,11009,11009,0,0,0,0,0,0,0,0,0,11009
+Leinster,Offaly,Carol Nolan,F,Sinn Féin,S.F.,S.F.,1,Elected,4804,4882,5459,6295,7195,8785,8890,0,0,0,0,0,0,0,0,0,8890
+Leinster,Offaly,Christopher Fettes,M,Green Party,G.P.,G.P.,0,Excluded,525,532,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Offaly,Eddie Fitzpatrick,M,Fianna Fáil,F.F.,F.F.,0,Excluded,3394,4297,4578,6147,7141,8521,8720,0,0,0,0,0,0,0,0,0,0
+Leinster,Offaly,Joe Hannigan,M,Non-Party,Others,NON-P.,0,Excluded,5188,5226,5536,5816,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Offaly,John Foley,M,Non-Party,Others,NON-P.,0,Excluded,4200,4241,4536,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Offaly,John Leahy,M,Renua Ireland,Others,R.I.,0,Excluded,4596,4759,5319,5833,6588,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Offaly,Kate Bopp,F,Non-Party,Others,NON-P.,0,Excluded,549,554,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Offaly,Ken Smollen,M,Irish Democratic Party,Others,I.D.P.,0,Excluded,971,999,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Offaly,Marcella Corcoran Kennedy,F,Fine Gael,F.G.,F.G.,1,Elected,6838,6919,7270,7798,9484,11313,11009,0,0,0,0,0,0,0,0,0,11009
+Leinster,Offaly,Teresa Ryan-Feehan,F,Non-Party,Others,NON-P.,0,Excluded,603,616,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Roscommon Galway,Anne Farrell,F,Renua Ireland,Others,R.I.,0,Excluded,520,577,580,616,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Roscommon Galway,Claire Kerrane,F,Sinn Féin,S.F.,S.F.,0,Excluded,3075,3196,3207,3256,3301,3591,3826,0,0,0,0,0,0,0,0,0,0
+Connacht,Roscommon Galway,Denis Naughten,M,Non-Party,Others,NON-P.,1,Elected,13936,11421,11421,11421,11421,11421,11421,11421,0,0,0,0,0,0,0,0,11421
+Connacht,Roscommon Galway,Eddie Conroy,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,982,1008,1015,1146,1172,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Roscommon Galway,Eugene Murphy,M,Fianna Fáil,F.F.,F.F.,1,Elected,6813,7157,7162,7192,7260,7368,7565,10104,0,0,0,0,0,0,0,0,10104
+Connacht,Roscommon Galway,John Kelly,M,The Labour Party,LAB.,LAB.,0,Excluded,1211,1254,1258,1320,1373,1442,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Roscommon Galway,Maura Hopkins,F,Fine Gael,F.G.,F.G.,0,Excluded,6812,7317,7324,7428,7555,7698,8388,9313,0,0,0,0,0,0,0,0,0
+Connacht,Roscommon Galway,Michael Fitzmaurice,M,Non-Party,Others,NON-P.,1,Elected,9750,10964,10996,11073,11275,11630,11630,11630,0,0,0,0,0,0,0,0,11630
+Connacht,Roscommon Galway,Miriam Hennessy,F,Green Party,G.P.,G.P.,0,Excluded,286,305,307,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Roscommon Galway,Shane Curran,M,Fianna Fáil,F.F.,F.F.,0,Excluded,2006,2164,2168,2198,2240,2294,2389,0,0,0,0,0,0,0,0,0,0
+Connacht,Roscommon Galway,Thomas Declan Fallon,M,Non-Party,Others,NON-P.,0,Excluded,75,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Roscommon Galway,Tony Coleman,M,Non-Party,Others,NON-P.,0,Excluded,214,229,237,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Bernard Sweeney,M,Non-Party,Others,NON-P.,0,Excluded,129,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Bernie O'Hara,F,Non-Party,Others,NON-P.,0,Excluded,1206,1242,1265,1344,1470,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Chris Mac Manus,M,Sinn Féin,S.F.,S.F.,0,Excluded,4747,4786,4809,4837,4865,4909,5194,5257,5547,5637,7045,7093,0,0,0,0,0
+Connacht,Sligo Leitrim,Declan Bree,M,Non-Party,Others,NON-P.,0,Excluded,3250,3282,3347,3399,3454,3547,4165,4402,5361,5512,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Des Guckian,M,Non-Party,Others,NON-P.,0,Excluded,1060,1098,1118,1154,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Eamon Murray,M,Non-Party,Others,NON-P.,0,Excluded,356,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Eamon Scanlon,M,Fianna Fáil,F.F.,F.F.,1,Elected,5874,5899,5907,5961,5994,6126,6179,6267,6522,7553,7822,9145,9554,10185,10822,0,10822
+Connacht,Sligo Leitrim,Finbarr Filan,M,Renua Ireland,Others,R.I.,0,Excluded,881,887,913,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Gerard Reynolds,M,Fine Gael,F.G.,F.G.,0,Excluded,6672,6702,6742,6797,6944,7027,7054,7314,7532,8715,8921,10092,10177,10316,10417,0,0
+Connacht,Sligo Leitrim,John Perry,M,Fine Gael,F.G.,F.G.,0,Excluded,4403,4413,4431,4466,4487,4533,4566,4773,4935,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Leslie V. John O'Hora,M,Green Party,G.P.,G.P.,0,Excluded,603,619,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Marc MacSharry,M,Fianna Fáil,F.F.,F.F.,1,Elected,8856,8874,8893,9036,9122,9447,9549,9705,10322,10672,11520,13227,13227,13227,12468,0,12468
+Connacht,Sligo Leitrim,Marie Casserly,F,Non-Party,Others,NON-P.,0,Excluded,2726,2763,2823,2945,3067,3254,3697,4138,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Martin Kenny,M,Sinn Féin,S.F.,S.F.,1,Elected,6356,6419,6439,6473,6687,6781,6988,7028,7270,7305,7971,9294,14066,12468,12468,0,12468
+Connacht,Sligo Leitrim,Nigel Gallagher,M,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1768,1803,1890,1950,2014,2074,0,0,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Paddy O'Rourke,M,Fianna Fáil,F.F.,F.F.,0,Excluded,5447,5474,5486,5511,5658,5799,5819,5863,5949,6001,6083,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Susan O'Keeffe,F,The Labour Party,LAB.,LAB.,0,Excluded,1829,1843,1986,2036,2060,2096,2192,0,0,0,0,0,0,0,0,0,0
+Connacht,Sligo Leitrim,Tony McLoughlin,M,Fine Gael,F.G.,F.G.,1,Elected,6172,6204,6237,6338,6371,6440,6485,7013,7628,9465,10055,10167,10529,10910,10931,0,10931
+Munster,Tipperary,Alan Kelly,M,The Labour Party,LAB.,LAB.,1,Elected,7746,8209,8387,9456,9958,11067,11750,0,0,0,0,0,0,0,0,0,11750
+Munster,Tipperary,Gearóid Fitzgibbon,M,Green Party,G.P.,G.P.,0,Excluded,1341,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Tipperary,Jackie Cahill,M,Fianna Fáil,F.F.,F.F.,1,Elected,7414,7542,9103,9530,10114,15062,12992,0,0,0,0,0,0,0,0,0,12992
+Munster,Tipperary,Marie Murphy,F,Fine Gael,F.G.,F.G.,0,Excluded,1542,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Tipperary,Mattie McGrath,M,Non-Party,Others,NON-P.,1,Elected,11237,11781,12819,13064,13064,13064,13064,0,0,0,0,0,0,0,0,0,13064
+Munster,Tipperary,Michael Dillon,M,Non-Party,Others,NON-P.,0,Excluded,238,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Tipperary,Michael Lowry,M,Non-Party,Others,NON-P.,1,Elected,13064,13064,13064,13064,13064,13064,13064,0,0,0,0,0,0,0,0,0,13064
+Munster,Tipperary,Michael Smith,M,Fianna Fáil,F.F.,F.F.,0,Excluded,6718,6817,7565,8165,8891,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Tipperary,Noel Coonan,M,Fine Gael,F.G.,F.G.,0,Excluded,4782,5140,5193,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Tipperary,Seamus Healy,M,Non-Party,Others,NON-P.,1,Elected,7452,7834,8477,8572,11427,12029,12874,0,0,0,0,0,0,0,0,0,12874
+Munster,Tipperary,Séamus Séan Morris,M,Sinn Féin,S.F.,S.F.,0,Excluded,5724,5921,6038,6205,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Tipperary,Siobhán Ambrose,F,Fianna Fáil,F.F.,F.F.,0,Excluded,4472,4687,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Tipperary,Tom Hayes,M,Fine Gael,F.G.,F.G.,0,Excluded,6218,6821,7026,9373,9560,9943,10437,0,0,0,0,0,0,0,0,0,0
+Munster,Waterford,Ciara Conway,F,The Labour Party,LAB.,LAB.,0,Excluded,2268,2286,2302,2309,2367,2445,2449,0,0,0,0,0,0,0,0,0,0
+Munster,Waterford,David Cullinane,M,Sinn Féin,S.F.,S.F.,1,Elected,9739,9783,9826,9890,9967,10497,10341,10341,10341,0,0,0,0,0,0,0,10341
+Munster,Waterford,Edward Quilty,M,Direct Democracy,Others,D.D.I.,0,Excluded,194,195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Waterford,Grace O'Sullivan,F,Green Party,G.P.,G.P.,0,Excluded,2237,2254,2285,2379,2567,2968,2993,0,0,0,0,0,0,0,0,0,0
+Munster,Waterford,John D Walsh,M,Non-Party,Others,NON-P.,0,Excluded,858,865,895,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Waterford,John Deasy,M,Fine Gael,F.G.,F.G.,1,Elected,7641,7687,7697,7806,7996,8067,8072,9443,9671,0,0,0,0,0,0,0,9671
+Munster,Waterford,John Halligan,M,Non-Party,Others,NON-P.,1,Elected,8306,8368,8438,8513,8674,9271,9345,11148,10341,0,0,0,0,0,0,0,10341
+Munster,Waterford,Mailo Power,F,Renua Ireland,Others,R.I.,0,Excluded,862,880,902,1087,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Waterford,Mary Butler,F,Fianna Fáil,F.F.,F.F.,1,Elected,10603,10341,10341,10341,10341,10341,10341,10341,10341,0,0,0,0,0,0,0,10341
+Munster,Waterford,Paudie Coffey,M,Fine Gael,F.G.,F.G.,0,Excluded,7209,7245,7281,7412,7600,7635,7637,8946,9104,0,0,0,0,0,0,0,0
+Munster,Waterford,Sheik Mohiuddin Ahmed,M,Non-Party,Others,NON-P.,0,Excluded,140,143,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Munster,Waterford,Úna Dunphy,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1646,1656,1719,1767,1857,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,Ann Walsh,F,Green Party,G.P.,G.P.,0,Excluded,1056,1064,1093,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,Aoife Byrne,F,Fianna Fáil,F.F.,F.F.,0,Excluded,3164,3181,3252,3292,3357,3462,3513,3585,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,Brendan Howlin,M,The Labour Party,LAB.,LAB.,1,Elected,10574,10635,10731,10907,11140,11200,11311,11769,12071,12071,12071,11944,11944,11944,0,0,11944
+Leinster,Wexford,Caroline Foxe,F,Non-Party,Others,NON-P.,0,Excluded,930,956,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,David Lloyd,M,Direct Democracy,Others,D.D.I.,0,Excluded,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,David Maloney,M,Non-Party,Others,NON-P.,0,Excluded,1472,1558,1616,1731,1749,1843,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,Deirdre Wadding,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1472,1558,1616,1731,1749,1843,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,Ger Carthy,M,Non-Party,Others,NON-P.,0,Excluded,3134,3189,3268,3307,3351,3428,3563,3855,4041,0,0,0,0,0,0,0,0
+Leinster,Wexford,James Browne,M,Fianna Fáil,F.F.,F.F.,1,Elected,9827,9850,9937,9983,10007,10066,10095,10150,11699,12434,11944,11944,11944,11944,0,0,11944
+Leinster,Wexford,John Dwyer,M,Non-Party,Others,NON-P.,0,Excluded,1265,1279,1323,1355,1362,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,John Mythen,M,Sinn Féin,S.F.,S.F.,0,Excluded,7260,7357,7415,7451,7466,7712,8036,8248,8350,8795,8824,8832,9405,9652,0,0,0
+Leinster,Wexford,Julie Hogan,F,Fine Gael,F.G.,F.G.,0,Excluded,1214,1233,1266,1305,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,Leonard Kelly,M,Social Democrats,Others,S.D.,0,Excluded,1635,1677,1707,1883,1907,1939,2179,0,0,0,0,0,0,0,0,0,0
+Leinster,Wexford,Malcolm Byrne,M,Fianna Fáil,F.F.,F.F.,0,Excluded,6115,6123,6139,6204,6222,6241,6286,6367,6950,7122,7393,7409,0,0,0,0,0
+Leinster,Wexford,Michael D'arcy,M,Fine Gael,F.G.,F.G.,1,Elected,7798,7803,7830,7913,8334,8357,8390,8490,8574,8884,8917,8950,11371,11645,0,0,11645
+Leinster,Wexford,Mick Wallace,M,Independents 4 Change,Others,I.4.C,1,Elected,7917,8013,8237,8398,8468,8853,9575,10213,10625,11817,11887,11930,13420,11944,0,0,11944
+Leinster,Wexford,Paul Kehoe,M,Fine Gael,F.G.,F.G.,1,Elected,7696,7703,7764,7808,8152,8259,8284,8344,8522,8874,8922,8949,9593,9704,0,0,9704
+Leinster,Wicklow,Andrew Doyle,M,Fine Gael,F.G.,F.G.,1,Elected,6045,6227,6244,6285,6424,6466,7726,7961,9652,10394,0,0,0,0,0,0,10394
+Leinster,Wicklow,Anna Doyle,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,539,612,655,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wicklow,Anne Ferris,F,The Labour Party,LAB.,LAB.,0,Excluded,2634,2861,2873,2912,3413,3633,3859,4032,0,0,0,0,0,0,0,0,0
+Leinster,Wicklow,Avril Cronin,F,Fine Gael,F.G.,F.G.,0,Excluded,2091,2149,2163,2176,2261,2322,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wicklow,Billy Timmins,M,Renua Ireland,Others,R.I.,0,Excluded,5510,5737,5762,5858,6017,6231,6667,6910,7279,8359,0,0,0,0,0,0,0
+Leinster,Wicklow,Bob Kearns,M,Non-Party,Others,NON-P.,0,Excluded,112,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wicklow,Charlie Keddy,M,Non-Party,Others,NON-P.,0,Excluded,447,476,520,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wicklow,Jennifer Cuffe,F,Fianna Fáil,F.F.,F.F.,0,Excluded,2990,3179,3192,3249,3339,3448,3548,0,0,0,0,0,0,0,0,0,0
+Leinster,Wicklow,Joe Behan,M,Non-Party,Others,NON-P.,0,Excluded,3070,3345,3374,3539,3717,4288,4332,4613,5218,0,0,0,0,0,0,0,0
+Leinster,Wicklow,John Brady,M,Sinn Féin,S.F.,S.F.,1,Elected,11151,11489,11489,11489,11489,11489,11489,11489,11489,11489,0,0,0,0,0,0,11489
+Leinster,Wicklow,Katrina Hutchinson,F,Direct Democracy,Others,D.D.I.,0,Excluded,168,217,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wicklow,Pat Casey,M,Fianna Fáil,F.F.,F.F.,1,Elected,6289,6446,6457,6505,6552,6600,6700,8931,9214,10260,0,0,0,0,0,0,10260
+Leinster,Wicklow,Sharon Briggs,F,Anti-Austerity Alliance,Others,AAA-PBP,0,Excluded,1241,1396,1454,1918,2219,0,0,0,0,0,0,0,0,0,0,0,0
+Leinster,Wicklow,Simon Harris,M,Fine Gael,F.G.,F.G.,1,Elected,10819,11468,11468,11468,11468,11468,11468,11468,11468,11468,0,0,0,0,0,0,11468
+Leinster,Wicklow,Stephen Donnelly,M,Social Democrats,Others,S.D.,1,Elected,14348,11468,11468,11468,11468,11468,11468,11468,11468,11468,0,0,0,0,0,0,11468
+Leinster,Wicklow,Steven Matthews,M,Green Party,G.P.,G.P.,0,Excluded,1350,1614,1651,1745,0,0,0,0,0,0,0,0,0,0,0,0,0

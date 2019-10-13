@@ -128,7 +128,7 @@ function candidate_graphs(ndx) {
     var group = dim.group().reduceSum(dc.pluck('Seat'));
 
     dc.rowChart("#candidate-graph")
-        .width(600)
+        .width(500)
         .height(400)
         .colors(d3.scale.ordinal().range(["#91B905", "#D6323D", "#014B45", "#8B8C8A", "#12A853", "#00A3DF"]))
         .margins({ top: 10, right: 50, bottom: 30, left: 50 })
@@ -154,7 +154,7 @@ function show_data_table(ndx) {
             function(d) { return d.Candidate; },
             function(d) { return d.Gender; },
             function(d) { return d.Party; },
-            function(d) { return d.Party_Abbreviation_v2; },
+            // function(d) { return d.Party_Abbreviation; },
             function(d) { return d.Result; },
             function(d) { return d.Count_1; },
             function(d) { return d.Total_Votes; }
