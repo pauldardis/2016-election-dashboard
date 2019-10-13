@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
@@ -23,12 +23,14 @@
 
 <body>
 
-    <section class="section">
-        <div id="refresh-button">
-            <button type="submit" class="btn btn-success" onClick="refreshPage()">Refresh Charts</button>
-        </div>
-    </section>
-
+    <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
+        <!--<div class="container-fluid">-->
+            <!--<a class="navbar-brand" href="#">2016 Irish General Election Statistics</a>-->
+            <div id="refresh-button">
+                <button type="submit" class="btn btn-success" onClick="refreshPage()">Refresh Charts</button>
+            </div>
+        <!--</div>-->
+    <!--</nav>-->
 
 
     <section class="section">
@@ -36,10 +38,10 @@
             <div class="selection-container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center custom-chart" id="region-selector">
-                        <h3 class="selection-text">Select Region</h3>
+                        <h2 class="selection-text">Select Region</h2>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center custom-chart" id="constituency-selector">
-                        <h3 class="selection-text">Select Constituency</h3>
+                        <h2 class="selection-text">Select Constituency</h2>
                     </div>
                 </div>
             </div>
@@ -51,7 +53,7 @@
         <div class="container-fluid">
             <div class="row">
                 <!--<div class="gender_container">-->
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2">
                     <div class="party_color_ff gender_party_box">
                         <h3 class="party-name">Fianna Fáil</h3>
                         <h4 class="gender-text">Total Candidates</h4>
@@ -90,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2">
                     <div class="party_color_fg gender_party_box">
                         <h3 class="party-name">Fine Gael</h3>
                         <h4 class="gender-text">Total Candidates</h4>
@@ -129,7 +131,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2">
                     <div class="party_color_sf gender_party_box">
                         <h3 class="party-name">Sinn Féin</h3>
                         <h4 class="gender-text">Total Candidates</h4>
@@ -168,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2">
                     <div class="party_color_lab gender_party_box">
                         <h3 class="party-name">Labour</h3>
                         <h4 class="gender-text">Total Candidates</h4>
@@ -207,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2">
                     <div class="party_color_gp gender_party_box">
                         <h3 class="party-name">Green's</h3>
                         <h4 class="gender-text">Total Candidates</h4>
@@ -246,7 +248,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2 col-xl-2">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-2 col-xl-2">
                     <div class="party_color_others gender_party_box">
                         <h3 class="party-name">Others</h3>
                         <h4 class="gender-text">Total Candidates</h4>
@@ -296,14 +298,14 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="center-graphs">
-                        <h3 class="selection-text">First Preferance Votes</h3>
                         <span class=" " id="party_first_preference_graphs"></span>
+                        <h2 class="selection-text">First Preferance Votes</h2>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                     <div class="center-graphs">
-                        <h3 class="selection-text">Seats by Party</h3>
                         <span class="" id="candidate-graph"></span>
+                        <h2 class="selection-text">Total Seats by Party</h2>
                     </div>
                 </div>
             </div>
@@ -313,7 +315,7 @@
     <section class="section">
         <div class="container">
             <div class="row">
-                <h3 class="selection-text">list of data</h3>
+                <h2 class="selection-text">Candidate Data Table</h2>
                 <table id="dc-data-table" class="table table-bordered">
                     <thead>
                         <tr class="header">
@@ -341,11 +343,11 @@
     <section class="section">
         <div class="container">
             <div class="row">
-                <h3 class="selection-text">list of data</h3>
+                <h2 class="selection-text">Constituency Data Table</h2>
                 <table id="dc-constituency-table" class="table table-bordered">
                     <thead>
                         <tr class="header">
-                            <th>Constituency</th>
+                            <th >Constituency</th>
                             <th>Total Electorate</th>
                             <th>Turnout</th>
                             <th>Valid Votes</th>
@@ -359,12 +361,13 @@
 
 
 
-
-
-
-    <!--this is to be removed-->
-    <!--<div id="test_graphs">this is a test</div>-->
-
+<!--<footer class="page-footer font-small bg-dark">-->
+    
+<!--  <div class="footer-copyright text-center py-3">-->
+<!--  <p class ="gender-text">need to clean this up </p>-->
+<!--  </div>-->
+  
+<!--</footer>-->
 
 </body>
 

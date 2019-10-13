@@ -73,7 +73,10 @@ function region_selector(ndx) {
 
     dc.selectMenu("#region-selector")
         .dimension(dim)
-        .group(group);
+        .group(group)
+        .title(function(d) {
+            return d.key;
+        });
 }
 
 function constituency_selector(ndx) {
@@ -82,7 +85,10 @@ function constituency_selector(ndx) {
 
     dc.selectMenu("#constituency-selector")
         .dimension(dim)
-        .group(group);
+        .group(group)
+        .title(function(d) {
+            return d.key;
+        });
 }
 
 function party_first_preference_graphs(ndx) {
@@ -91,8 +97,8 @@ function party_first_preference_graphs(ndx) {
     var group = dim.group().reduceSum(dc.pluck('Count_1'));
 
     dc.pieChart('#party_first_preference_graphs')
-        .height(360)
-        .width(360)
+        .height(400)
+        .width(400)
         .innerRadius(95)
         .transitionDuration(1500)
         .colors(d3.scale.ordinal().range(["#8B8C8A", "#00A3DF", "#12A853", "#014B45", "#D6323D", "#91B905"]))
@@ -156,7 +162,7 @@ function show_data_table(ndx) {
         ]).sortBy(function(d) {
             return d.Constituency_Name; /* sortBy return = d.Constituency_Name will sort data by Constituency_Names */
         })
-        .order(d3.ascending) 
+        .order(d3.ascending)
 
         /* pagination */
 
@@ -165,7 +171,7 @@ function show_data_table(ndx) {
         .on('pretransition', display);
 
 
-    
+
     var ofs = 0,
         pag = 7;
 
@@ -696,10 +702,12 @@ function show_count_elected_others(ndx, gender, element) {
 }
 
 function show_constituency_table(ndx) {
+    
 
     var dim = ndx.dimension(function(d) { return d.dim; });
 
     var table = dc.dataTable("#dc-constituency-table") /* variable created for pagination */
+   
 
         .dimension(dim)
         .group(function(d) { return ""; })
@@ -711,12 +719,17 @@ function show_constituency_table(ndx) {
             function(d) { return ((((parseInt(d.Valid_Poll)) + (parseInt(d.Spoiled))) / (parseInt(d.Total_Electorate)) * 100).toFixed(0)) + "%" },
             function(d) { return d.Valid_Poll; },
             function(d) { return d.Spoiled; }
-            
-      
+
+
         ]).sortBy(function(d) {
             return d.Total_Electorate; /* sortBy return = d.Total_Electorate will sort data by Total_Electorate */
         })
         .order(d3.ascending)
 
 }
+
+
+
+
+
 
